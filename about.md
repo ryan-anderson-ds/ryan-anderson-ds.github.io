@@ -10,7 +10,7 @@ permalink: /about/
 * Worked as a software developer in financial automation projects
 * Worked as a product manager of a machine learning product building psychological constructs
 * Working as a product manager at booking.com
-* True love: data science, machine learning, and finding meaningful applications thereof
+* True love: data science, machine learning, and finding _meaningful_ applications thereof
 * Spare time: triathlons, trail running, beer
 
 ### Contact me
