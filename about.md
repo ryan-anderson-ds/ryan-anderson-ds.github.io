@@ -1,10 +1,10 @@
-----
+---
 layout: page
 title: About
 permalink: /about/
 ---
 
-Intro
+Under construction.
 
 ### Contact me
 
