@@ -18,10 +18,9 @@ html {
 }
 
 body {
-  background: $white;
-  font-family: 17px Camphor,Open Sans,Segoe UI,sans-serif;
+	background: $white;
+  font: 18px/1.4 $helvetica;
   color: $darkGray;
-  
 }
 
 .container {
@@ -32,7 +31,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Camphor,Open Sans,Segoe UI,sans-serif;
+  font-family: $helveticaNeue;
   color: $darkerGray;
   font-weight: bold;
 
