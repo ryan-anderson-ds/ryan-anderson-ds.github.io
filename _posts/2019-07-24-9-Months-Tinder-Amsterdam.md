@@ -11,7 +11,7 @@ I have seen a lot of visualisations (generally [Sankeys](https://en.wikipedia.or
 
 But then the magnitude of the human experience I was seeing in this tiny data file hit me. 
 
-Every swipe here was a real person. We've made online dating ridiculously efficient. But is it a good thing?
+Every swipe here was a real person. We've made online dating ridiculously efficient. But is this a good thing?
 
 ![9 Months of tinder in Amsterdam](http://rian-van-den-ander.github.io/images/visu/tinder_9months.png "9 Months of Tinder in Amsterdam")
 
