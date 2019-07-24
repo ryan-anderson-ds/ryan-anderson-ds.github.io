@@ -15,6 +15,6 @@ Tools: Python, [pywaffle](https://github.com/ligyxy/PyWaffle), GIMP
 
 ![9 Months of tinder in Amsterdam](http://rian-van-den-ander.github.io/images/visu/tinder_9months.png "9 Months of Tinder in Amsterdam")
 
-\* **Methodology footnotes:**
+**Methodology footnotes:**
 * My definition of a "relationship" is simply 3 or more dates. 
 * The method is obviously not 100% accurate. It does not account for bots, those who are inactive who would have liked me back, those who I swiped left or right on more than once as they recreated their accounts, or dates I went on outside of the Tinder ecosystem.
