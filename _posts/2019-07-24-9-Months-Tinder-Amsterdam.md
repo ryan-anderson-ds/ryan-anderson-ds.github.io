@@ -17,4 +17,4 @@ Tools: Python, [pywaffle](https://github.com/ligyxy/PyWaffle), GIMP
 
 \* **Methodology footnotes:**
 * My definition of a "relationship" is simply 3 or more dates. 
-* The method is obviously not 100% accurate. It does not account for bots, those who are inactive who would have liked me back, or those who I swiped left or right on more than once as they recreated their accounts.
+* The method is obviously not 100% accurate. It does not account for bots, those who are inactive who would have liked me back, those who I swiped left or right on more than once as they recreated their accounts, or dates I went on outside of the Tinder ecosystem.
