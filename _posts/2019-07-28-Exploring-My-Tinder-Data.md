@@ -96,7 +96,7 @@ Finally, I would love to see this data for other people, to see if I could find 
 
 **Code**: [GitHub](https://github.com/rian-van-den-ander/explorations/tree/master/tinder_data)
 
-**Tools**: Python
+**Tools**: Python and standard libraries
 
  
 
