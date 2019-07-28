@@ -90,9 +90,9 @@ Finally, this begged the question: How did my pickiness affect my matches? Here,
 
 ![Pickiness versus success](../images/analyses/tinder_2019_07_28/pickiness_correlation.png "Pickiness versus success")
 
-The correlation was 21%, and _positive_. This, too, was interesting. I expected a low correlation, but lower than this. Furthermore, I expected a _negative_ correlation if anything. Here, 40 000 data points showed that the pickier I was, the more likely I was to get a match! It is possible that Tinder algorithmically favours the picky. For instance, maybe the algorithm assumes that more picky people are more attractive, therefore puts them further up other people's stacks. This, I can't know for sure. But:
+The correlation was 21%, and _positive_. This, too, was interesting. I expected a low correlation, but lower than this. Furthermore, I expected a _negative_ correlation if anything. Here, 40 000 data points showed that the pickier I was, the more likely I was to get a match! It is possible that Tinder algorithmically favours the picky. For instance, maybe the algorithm assumes that more picky people are more attractive, therefore puts them further up other people's stacks. It is also highly possible that in my more picky state, I look carefully at others' profiles, and I am more likely to pick someone who has things in common with me. This, I can't know for sure. But:
 
-**Insight 2: Swipe right less, but more matches per swipe!** Still less matches overall, but more matches per swipe. 
+**Insight 2: Swipe right less, get more matches per swipe!** Still less matches overall, but more matches per swipe. 
 
 This ended my exploration. I would have liked to know more. I would have loved to have more data on when exactly I used boosts, as well as data linking the time of my swipe to a match. But most of all I would have loved to know how many profiles there were in my area over time - as I feel this was a potentially large explanatory feature in my analysis. In a hypothetical city of only 10 people with one person I was attracted to, this would be the only feature worth analysing. In the perfect dating city, with infinite attractive people, I feel that my success would be mostly defined by swiping, boosting and pickiness. Amsterdam lies somewhere between these two.
 
