@@ -94,7 +94,7 @@ The correlation was 21%, and _positive_. This, too, was interesting. I expected 
 
 **Insight 2: Swipe right less, but more matches per swipe!** Still less matches overall, but more matches per swipe. 
 
-This ended my exploration. I would have liked to know more. I would have loved to have more data on when exactly I used boosts, as well as data linking the time of my swipe to a match. But most of all I would have loved to know how many profiles there were in my area over time - as I feel this was a potentially large explanatory feature in my analysis.
+This ended my exploration. I would have liked to know more. I would have loved to have more data on when exactly I used boosts, as well as data linking the time of my swipe to a match. But most of all I would have loved to know how many profiles there were in my area over time - as I feel this was a potentially large explanatory feature in my analysis. In a hypothetical city of only 10 people with one person I was attracted to, this would be the only feature worth analysing. In the perfect dating city, with infinite attractive people, I feel that my success would be mostly defined by swiping, boosting and pickiness. Amsterdam lies somewhere between these two.
 
 **Code**: [GitHub](https://github.com/rian-van-den-ander/explorations/tree/master/tinder_data)
 
