@@ -3,17 +3,15 @@ layout: post
 title: Encoding a column of JSON Data within a Pandas dataframe
 ---
 
-During building a machine learning kernel to predict a movie's success based purely on metadata known before a movie's release, I came across an interesting problem:
-
-I would assume that certain genres of movies (for instance, comic universe movies) are more associated with success than others (documentaries). The 'genres' column of the data provides a JSON list of genres of a movie. 
-
-However, to input this data into an existing machine learning or neural network library, these genres should be encoded into columns. For instance, if a movie had two genres in the JSON, "action" and "adventure," the dataset should instead have columns "action" and "adventure" with a 1 value in each, and 0 values for other genres which have their own corresponding columns.
+I have been building a machine learning kernel to predict a movie's success based purely on metadata known before a movie's release. Whilst doing this, I came across an interesting problem. I would assume that certain genres of movies (for instance, comic universe movies) are more associated with success than others (documentaries). The "genres" column of the data I have from TMDB provides a JSON list of genres of each movie. However, to input this data into an off-the-shelf machine learning library, these genres should be encoded into columns. For instance, if a movie had two genres in the JSON, "action" and "adventure," the dataset should instead have columns "action" and "adventure" with a 1 value in each, and 0 values for other genres which have their own corresponding columns.
 
 In the [dataset](https://www.kaggle.com/tmdb/tmdb-movie-metadata), there are JSON lists embedded within columns. Case in point, the "genres" column:
 
 ![JSON movie data](../images/algo/encoding_json/data.png "JSON movie data")
 
-I could not find an algorithm which does this. It probably existed. Now it definitely does. 
+I could not find an algorithm which does this. One probably did exist. Now one definitely does!
+
+The python code is as follows. I've also put it in [this respository](https://github.com/rian-van-den-ander/encode_json_data_within_dataframe).
 
 Here is the input the code could take, in terms of a dataframe. I also provide a column index to encode (1) and the JSON tag of the data I'm looking for ("id").
 
@@ -23,7 +21,7 @@ And the provided output. You will see that each genre has now become a column of
 
 ![JSON movie data](../images/algo/encoding_json/output.png "Algorithm output")
 
-The python code is as follows. I've also put it in [this respository](https://github.com/rian-van-den-ander/encode_json_data_within_dataframe)
+Success! Of course, the dataset is a lot larger with many more such JSON columns, but you get the idea.
 
 ~~~~
 
