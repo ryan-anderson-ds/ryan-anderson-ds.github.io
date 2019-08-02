@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Exploring my Tinder data - what correlates with matches?
+type: insights
 ---
 
 In an earlier post, I looked at the [raw stats](https://rian-van-den-ander.github.io/9-Months-Tinder-Amsterdam/) of my Tinder for the first 9 months in Amsterdam. In this post, I'll show my attempt at finding any patterns or useful real-world conclusions from my data. I do find one unexpected correlation, as well as an interesting personal insight. 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 9 Months of Tinder in Amsterdam
+type: insights
 ---
 
 I have seen a lot of visualisations (generally [Sankeys](https://en.wikipedia.org/wiki/Sankey_diagram)) depicting people's 'success' on Tinder. The general reaction to these visualisations has been shock from non online-daters at the amount of swiping one does to get a match. And from online-daters, obvious discontent with the gender dynamics at play. So I thought I'd have a look myself. I requested my data [from Tinder](https://account.gotinder.com/data). I trudged through it, interested by what Tinder provides, what they don't, and what constructive lessons I may learn from my own data. 

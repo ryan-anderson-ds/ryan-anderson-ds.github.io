@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Encoding a column of JSON Data within a Pandas dataframe
+type: code
 ---
 
 I have been building a machine learning kernel to predict a movie's success based purely on metadata known before a movie's release. Whilst doing this, I came across an interesting problem. I would assume that certain genres of movies (for instance, comic universe movies) are more associated with success than others (documentaries). The "genres" column of the data I have from TMDB provides a JSON list of genres of each movie. However, to input this data into an off-the-shelf machine learning library, these genres should be encoded into columns. For instance, if a movie had two genres in the JSON, "action" and "adventure," the dataset should instead have columns "action" and "adventure" with a 1 value in each, and 0 values for other genres which have their own corresponding columns.
