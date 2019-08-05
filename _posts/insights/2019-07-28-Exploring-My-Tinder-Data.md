@@ -28,7 +28,7 @@ You can request your data [from Tinder](https://account.gotinder.com/data). Afte
 
 Naturally, the first thing I wanted to see was my usage pattern. For this, I could have used the app_opens json fields, but found that they were far more correlated with messages sent than with swiping. So I looked at total swipes per day. 
 
-![Swipes per day](../images/analyses/tinder_2019_07_28/swipes_per_day.png "Swipes per day")
+![Swipes per day](../images/insights/tinder_2019_07_28/swipes_per_day.png "Swipes per day")
 
 Here, I could see periods of my life in Amsterdam accurately reflected in the data.
 1. Arriving in Amsterdam and excitedly dating
@@ -41,7 +41,7 @@ Here, I could see periods of my life in Amsterdam accurately reflected in the da
 
 The obvious next question was how my swiping activity correlated with my matches. The correlation was a surprisingly high 78%. For this analysis, I smoothed out the data somewhat. Rather than look at each day by itself, and see lots of spikes on days I was active, I wanted to see a rolling window average over the past two weeks. This method remained constant through the rest of the analysis, as it proved much more useful to pick up trends. Furthermore, it must be noted that the method here is far from perfect - a match can obviously happen many days after a swipe, although that is a rare case for me. The rolling window mean helps to negate this effect, though. 
 
-![Matches versus swipes](../images/analyses/tinder_2019_07_28/matches_versus_swipes.png "Matches versus swipes")
+![Matches versus swipes](../images/insights/tinder_2019_07_28/matches_versus_swipes.png "Matches versus swipes")
 
 I expected this correlation to be lower, given some well-known Tinder behaviour: Tinder puts the profiles of those that like you near to the top of your stack of profiles. For instance, if you started the day with nobody in your area, then 10 profiles popped up in your area, and 2 of them liked you, the 2 would be far more likely to be at the top of your stack. This works both ways, however. If I had liked another profile I would have more chance appearing near the top of their stack. It appears that either the latter effect was stronger than I expected, or Tinder was rewarding my activity through another mechanism in their algorithm.
 
@@ -49,7 +49,7 @@ I expected this correlation to be lower, given some well-known Tinder behaviour:
 
 Next, I thought I would control for swipes, getting the amount of matches per 50 swipes.
 
-![Matches per 50 swipes](../images/analyses/tinder_2019_07_28/matches_per_swipes.png "Matches per 50 swipes")
+![Matches per 50 swipes](../images/insights/tinder_2019_07_28/matches_per_swipes.png "Matches per 50 swipes")
 
 Interesting! Even though increasing my swipes per day were the primary reason I was getting matches, there was something else at play. My ratio got as good as 7 in 50, but also below 1 per 50.
 
@@ -65,7 +65,7 @@ I had been chatting to a friend about how great Amsterdam was for dating versus 
 
 This was easy to measure - I would just look at the ratio between my left and right swipes. 
 
-![Pickiness - left vs right swipes ](../images/analyses/tinder_2019_07_28/left_vs_right.png "Pickiness - left vs right swipes ")
+![Pickiness - left vs right swipes ](../images/insights/tinder_2019_07_28/left_vs_right.png "Pickiness - left vs right swipes ")
 
 Now _this_ was interesting!
 * Firstly, at the moment, my ratio was exactly the same as when I started. I hadn't gotten any pickier overall
@@ -83,7 +83,7 @@ That aside, there were some clear periods of pickiness that I could link to cons
 
 Finally, this begged the question: How did my pickiness affect my matches? Here, I graphed and correlated my pickiness versus the likelihood I would get a match from a swipe. 
 
-![Pickiness versus success](../images/analyses/tinder_2019_07_28/pickiness_correlation.png "Pickiness versus success")
+![Pickiness versus success](../images/insights/tinder_2019_07_28/pickiness_correlation.png "Pickiness versus success")
 
 The correlation was 21%, and _positive_. This, too, was interesting. I expected much lower correlation than this. Furthermore, I expected a _negative_ correlation if anything. Here, 40 000 data points showed that the pickier I was, the more likely I was to get a match! 
 
