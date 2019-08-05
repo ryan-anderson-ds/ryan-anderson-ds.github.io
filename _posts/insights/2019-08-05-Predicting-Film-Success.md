@@ -95,7 +95,7 @@ Interestingly, this picture shows an intuitive quick win. The model just has to 
 What are the variables most associated with film rating?
 ------
 
-An output from the XGBoost library provides the importances of variables it uses for prediction. This must be taken with a slight pinch of salt, given that the model itself has not made perfect predictions.
+An output from the XGBoost library provides the importance of variables it uses for prediction. This must be taken with a slight pinch of salt, given that the model itself has not made perfect predictions.
 
 ![Rating feature importances](../images/insights/predicting_film_success_2019_08_05/feature_importances_rating.png "Rating feature importances")
 
