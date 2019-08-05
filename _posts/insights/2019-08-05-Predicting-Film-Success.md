@@ -16,6 +16,8 @@ I trained a model on a randomized 90% of the movies, and then tested it on the r
 * **It was much more difficult to predict film rating**, but I could do a fair bit better than if I had just predicted an average rating for each movie, getting an R^2 of 0.53.
 * I had some fun, too. Scroll down for a **list of actors most associated with high rated and top grossing films**.
 
+![Revenue predictions](../images/insights/predicting_film_success_2019_08_05/revenue_predictions.png "Revenue predictions")
+
 
 
 The data
@@ -86,9 +88,9 @@ Naturally, accurately predicting a movie rating from purely movie metadata is a 
 
 That said, the best result I got was R^2 of 0.53. By machine learning standards, this is OK, but nothing to write home about. 53% of the variance beyond the average rating was explained by the model. In other words, it was missing out on a lot. However, this is still much better than an average line predicting a 6.2 rating for each movie!
 
-The below image shows some predictions from the model, with actual ratings on the left. There is some correlation.
+![Rating predictions](../images/insights/predicting_film_success_2019_08_05/rating_predictions.png "Rating predictions")
 
-![Model 1 predictions](../images/insights/predicting_film_success_2019_08_05/model_predictions_1.png "Model 1 predictions")
+Interestingly, this picture shows an intuitive quick win. The model just has to be 'tilted' in order to provide better predictions!
 
 What are the variables most associated with film rating?
 ------
@@ -137,6 +139,10 @@ As one might expect, this would be an easier task, given obvious factors such as
 * Many high revenue films are superhero movies
 
 Lo and behold, the same method as earlier returned an r-squared of 0.77 for this prediction. In other words, one can build a very good prediction of a film's revenue based purely on inputs known before the film goes public. This has real world consequences: for instance, a cinema could use this to predict how long they'd like to run a film for, ahead of time.
+
+![Revenue predictions](../images/insights/predicting_film_success_2019_08_05/revenue_predictions.png "Revenue predictions")
+
+This looks a lot better than my rating predictions. Sure, there are outliers, but they are fairly evenly spaced above and below the prediction line.
 
 What are the variables most associated with film **revenue**?
 ------
