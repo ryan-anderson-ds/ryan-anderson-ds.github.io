@@ -12,9 +12,9 @@ Summary
 ------
 I trained a model on a randomized 90% of the movies, and then tested it on the remaining 10%. For these test movies:
 
-* It was fairly easy to get a good prediction of film revenue, with R^2 of 0.66. In simple terms, this is not a perfect prediction, but good enough for a cinema to decide ahead of time whether to show a film for an extended period of time, for instance.
-* It was much more difficult to predict film rating, but I could do a fair bit better than if I had just predicted an average rating for each movie, getting an R^2 of 0.19.
-* I had some fun, too. Scroll down for a list of actors most associated with high rated and top grossing films.
+* **It was fairly easy to get a good prediction of film revenue**, with R^2 of 0.66. In simple terms, this is not a perfect prediction, but good enough for a cinema to decide ahead of time whether to show a film for an extended period of time, for instance.
+* **It was much more difficult to predict film rating**, but I could do a fair bit better than if I had just predicted an average rating for each movie, getting an R^2 of 0.19.
+* I had some fun, too. Scroll down for a **list of actors most associated with high rated and top grossing films**.
 
 
 
