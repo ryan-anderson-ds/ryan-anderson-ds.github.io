@@ -12,8 +12,8 @@ Summary
 ------
 I trained a model on a randomized 90% of the movies, and then tested it on the remaining 10%. For these test movies:
 
-* **It was fairly easy to get a good prediction of film revenue**. R^2 = 0.66. In simple terms, this is not a perfect prediction, but good enough for a cinema to decide ahead of time whether to show a film for an extended period of time, for instance.
-* **It was much more difficult to predict film rating**, but I could do a fair bit better than if I had just predicted an average rating for each movie, getting an R^2 of 0.19.
+* **It was a simple challenge to get a very good prediction of film revenue**. R^2 = 0.77. In simple terms, this is not a perfect prediction, but very good. Certainly good enough for a cinema to decide ahead of time whether to show a film for an extended period of time, for instance.
+* **It was much more difficult to predict film rating**, but I could do a fair bit better than if I had just predicted an average rating for each movie, getting an R^2 of 0.53.
 * I had some fun, too. Scroll down for a **list of actors most associated with high rated and top grossing films**.
 
 
@@ -29,11 +29,12 @@ The data is well labeled, but I will not bore with too many details. To summaris
 * The variables used for **input** were:
 	- budget
 	- a list of film genres
-	- release date 
+	- release date - split up into year and day of the year
 	- a list of spoken languages
 	- runtime 
 	- a list of production companies 
 	- a list of cast members 
+	- a list of crew members
 	- keywords - a list of user assigned keywords. Admittedly some of these would only be known after the movie was released, but these did not give away too much. A typical keyword would be 'based on a novel.'
 * The variables used for **model prediction** were:
 	- User vote (akin to IMDb rating)
@@ -49,10 +50,10 @@ Source file: [data_prep.py](https://github.com/rian-van-den-ander/explorations/t
 * I adjusted revenue for inflation. Initially, I thought this wouldn't make such a difference, but it actually improved R^2 by 0.02.
 
 **Problem**: How should I represent release date?
-* I decided to discard the year, and rather just use the day of the year, as we know film revenue can correlate with a Christmas or summer release. This paid off, as day of the year turned out to be a good predictor of revenue.
+* I decided to separate the variables - into year, and day of the year. Year, because revenue would definitely correlate with world population and popularity of watching films by year. Day of the year, as we know film revenue can correlate with a Christmas or summer release. This paid off, as day of the year turned out to be a good predictor of revenue.
 
 **A much bigger problem**: Many columns are JSON lists of 'columns'
-* Some JSON columns had multiple data stored inside: Each of genre, keywords, production company, spoken languages, cast was actually a list of genre, keywords etc.
+* Some JSON columns had multiple data stored inside: Each of genre, keywords, production company, spoken languages, cast and crew was actually a list of genre, keywords etc.
 * I had to create [a new library](https://github.com/rian-van-den-ander/encode_json_data_within_dataframe) to transform the JSON data into columns for my model.
 * This sometimes created way too many columns (codes) for my computer to handle, so I limited this per input column. Not great either, as I would now just take the most common 500 actors as opposed to all actors, the top 100 keywords, and the top 100 film studios. This could easily be improved by hosting the solution on the cloud and throwing more power at the model training.
 
@@ -81,9 +82,9 @@ For this, I used all input variables including an indication, for each of the to
 
 I ran the data through a [Hyperparameter grid search](https://towardsdatascience.com/grid-search-for-model-tuning-3319b259367e) using the [XGBoost regressor](https://xgboost.readthedocs.io/en/latest/) library. I tried several other libraries in the grid search, including random forest regressors. The grid search greatly improved the performance of the vanilla XGBoost regressor. 
 
-Naturally, accurately predicting a movie rating from purely movie metadata is a bit of a pipe dream. There are a lot of variables that one won't see in the metadata, such as the quality of script, or whether the role was just perfect for Johnny Depp. However, I did miss a few tricks here, such as including the crew in my input data (see 'Room for improvement' section)
+Naturally, accurately predicting a movie rating from purely movie metadata is a bit of a pipe dream. There are a lot of variables that one won't see in the metadata, such as the quality of script, or whether the role was just perfect for Johnny Depp.
 
-That said, the best result I got was R^2 of 0.19. By machine learning standards, this is not a good model. Only 19% of the variance beyond the average rating was explained by the model. In other words, it was missing out on a lot. However, this is still much better than an average line predicting a 6.2 rating for each movie!
+That said, the best result I got was R^2 of 0.53. By machine learning standards, this is OK, but nothing to write home about. 53% of the variance beyond the average rating was explained by the model. In other words, it was missing out on a lot. However, this is still much better than an average line predicting a 6.2 rating for each movie!
 
 The below image shows some predictions from the model, with actual ratings on the left. There is some correlation.
 
@@ -135,13 +136,13 @@ As one might expect, this would be an easier task, given obvious factors such as
 * A film's budget is probably a good indicator of whether it was targeted as a box-office hit
 * Many high revenue films are superhero movies
 
-Lo and behold, the same method as earlier returned an r-squared of 0.66 for this prediction. In other words, one can build a fairly good prediction of a film's revenue based purely on inputs known before the film goes public. This has real world consequences: for instance, a cinema could use this to predict how long they'd like to run a film for, ahead of time.
+Lo and behold, the same method as earlier returned an r-squared of 0.77 for this prediction. In other words, one can build a very good prediction of a film's revenue based purely on inputs known before the film goes public. This has real world consequences: for instance, a cinema could use this to predict how long they'd like to run a film for, ahead of time.
 
 What are the variables most associated with film **revenue**?
 ------
 This list will be less of a surprise. Again, though, the same disclaimer applies. Variables can be negatively affecting revenue, and this model is not perfect. The list confirms the strong connection between budget and revenue. After all, why would one be making films if you did not get return on your investment? 
 
-Unsurprisingly, superhero movies and pixar movies make a strong appearance here, with their keywords, studios, genres and actors dominating the list.
+Unsurprisingly, superhero movies and pixar movies make a strong appearance here, with their keywords, studios, genres and actors dominating the list. Note - this list excludes top-contributing crew, as I made the list before including crew members as input.
 
 Surprisingly, 'dying and death.'
 
@@ -238,11 +239,13 @@ My method was not perfect. I discarded a fair amount of useful data, and took sh
 
 * Creating my own custom measure of success, 
 * Include ALL JSON data on actors, keywords, genres
-* Include _crew_. I have a feeling that I missed a trick when not predetermining that good crew (such as directors) are associated with good ratings. 
-* Include year.
+* Include _crew_. I have a feeling that I missed a trick when not predetermining that good crew (such as directors) are associated with good ratings.
+* Include year. 
 * Do a PCA or LDA to eliminate pointless variables
 * Run my XGBoost model through a more extreme parameter grid, picking even better parameters 
 * Explore a neural network solution, given the sheer size of this problem.
+
+Update: I included crew and film year, as mentioned above, and it improved the R^2 on revenue prediction by from 0.68 to 0.77 and on rating prediction by 0.19 to 0.53 - an astounding improvement for both! I have updated the rest of the writeup to reflect these numbers.
 
 Code and tools
 ------
