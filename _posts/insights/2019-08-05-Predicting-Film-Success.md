@@ -257,6 +257,10 @@ My method was not perfect. I discarded a fair amount of useful data, and took sh
 * Run my XGBoost model through a more extreme parameter grid, picking even better parameters 
 * Explore a neural network solution, given the sheer size of this problem.
 
+Conclusion
+------
+Overall, I am pleasantly surprised with the performance of my model. I did not expect to get such good predictions, especially that of film rating. I learnt a bit about the film industry in the process, especially how much crew matter in making a good film.
+
 Code and tools
 ------
 Code: [GitHub](https://github.com/rian-van-den-ander/explorations/blob/master/film_success/film_rating_with_cast_best_regressor.py)
