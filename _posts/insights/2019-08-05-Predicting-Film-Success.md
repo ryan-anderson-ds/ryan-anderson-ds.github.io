@@ -14,6 +14,7 @@ I trained a model on a randomized 90% of the movies, and then tested it on the r
 
 * **It was a simple challenge to get a very good prediction of film revenue**. R^2 = 0.77. In simple terms, this is not a perfect prediction, but very good. Certainly good enough for a cinema to decide ahead of time whether to show a film for an extended period of time, for instance.
 * **It was much more difficult to predict film rating**, but I could do a fair bit better than if I had just predicted an average rating for each movie, getting an R^2 of 0.53.
+* Film crew, while initially discarded, turned out to be the difference in a bad and a good film rating prediction. Crew members are more important to both the revenue prediction and rating predictio models than cast. 
 * I had some fun, too. Scroll down for a **list of actors most associated with high rated and top grossing films**.
 
 ![Revenue predictions](../images/insights/predicting_film_success_2019_08_05/revenue_predictions.png "Revenue predictions")
@@ -99,35 +100,33 @@ An output from the XGBoost library provides the importance of variables it uses 
 
 ![Rating feature importances](../images/insights/predicting_film_success_2019_08_05/feature_importances_rating.png "Rating feature importances")
 
-Here, we can see only around 180 of the input variables held any importance at all. Ther rest were essentially discarded by the algorithm. That's ok! In future, I would just run the variables through an analysis ([LDA](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation)
+Here, we can see only around 200 of the input variables held any importance at all. Ther rest were essentially discarded by the algorithm. That's ok! In future, I would just run the variables through an analysis ([LDA](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation)
 ?) in advance to pick out those with no correlation to film rating.
 
-In text form, the variables most associated with film rating were as follows. _Disclaimer: These can just as well be NEGATIVELY affecting the rating, as a cynic might pick up from a couple of the names (Romance, witch, Constantin Film Produktion). The algorithm just returns the ones with the largest effect on its predictor._
-
-I am still stumped by the strong link with the "father son relationship" keyword! If anyone has a good explanation, please email me!
+In text form, the variables most associated with film rating were as follows. _Disclaimer: These can just as well be NEGATIVELY affecting the rating, as a cynic might pick up from a couple of the names (teenager, horror). The algorithm just returns the ones with the largest effect on its predictor._
 
 ~~~~
-('father son relationship', 0.026174808)
-('independent film', 0.02035883)
-('Fox Searchlight Pictures', 0.019562881)
-('Michael Madsen', 0.01150904)
-('remake', 0.010837264)
-('Fantasy', 0.010430015)
-('Elijah Wood', 0.010411793)
-('UK Film Council', 0.009918339)
-('Canal+', 0.009511254)
-('Millennium Films', 0.009015981)
-('Romance', 0.0089491205)
-('Runtime', 0.008907374)
-('witch', 0.0087549)
-('Constantin Film Produktion', 0.008523767)
-('Foreign', 0.008085604)
-('Film budget', 0.007986463)
-('Day of the year', 0.0078098746)
-('paris', 0.007778621)
-('Pixar Animation Studios', 0.00775067)
-('Vince Vaughn', 0.007628271)
-('Luke Wilson', 0.0075204046)
+('Drama', 0.02771771)
+('Film runtime', 0.017870583) - !
+('Horror', 0.015099976)
+('Animation', 0.010213515)
+('John Lasseter', 0.0099559575) - of Pixar fame
+('family', 0.009091541)
+('Comedy', 0.009024642)
+('Harvey Weinstein', 0.009003568)
+('Whoopi Goldberg', 0.008995796) - ?!
+('Bill Murray', 0.008862046)
+('Action', 0.008832617)
+('Documentary', 0.008824027)
+('Morgan Creek Productions', 0.008456202)
+('Franchise Pictures', 0.008374982)
+('Hans Zimmer', 0.008047262)
+('DreamWorks Animation', 0.007945064)
+('hospital', 0.007892966)
+('Janet Hirshenson', 0.007849025)
+('Jason Friedberg', 0.007827318)
+('en', 0.0077783377) - English movies
+('teenager', 0.0077319876)
 ~~~~
 
 Predicting film revenue - an easier task
@@ -148,32 +147,30 @@ What are the variables most associated with film **revenue**?
 ------
 This list will be less of a surprise. Again, though, the same disclaimer applies. Variables can be negatively affecting revenue, and this model is not perfect. The list confirms the strong connection between budget and revenue. After all, why would one be making films if you did not get return on your investment? 
 
-Unsurprisingly, superhero movies and pixar movies make a strong appearance here, with their keywords, studios, genres and actors dominating the list. Note - this list excludes top-contributing crew, as I made the list before including crew members as input.
-
-Surprisingly, 'dying and death.'
+Unsurprisingly, superhero movies and pixar movies make a strong appearance here, with their keywords, studios, genres and crew dominating the list.
 
 ~~~~
-('Film budget', 0.044391543)
-('Robert Downey Jr.', 0.027033819)
-('Pixar Animation Studios', 0.026760902)
-('superhero', 0.025424734)
-('Judi Dench', 0.022775456)
-('Zoe Saldana', 0.018396903)
-('3d', 0.017599344)
-('Adventure', 0.015867993)
-('based on comic book', 0.015653472)
-('Dune Entertainment', 0.01459572)
-('suspense', 0.014268756)
-('duringcreditsstinger', 0.0127963945)
-('Frank Welker', 0.012037063)
-('dying and death', 0.011989311) - ?!
-('Columbia Pictures', 0.011956881)
-('Imagine Entertainment', 0.011694607)
-('Cate Blanchett', 0.011441057)
-('History', 0.011275761)** - negatively associated?
-('Fantasy', 0.011264136)
-('Paul Bettany', 0.01095041)
-('DreamWorks Animation', 0.010652226)
+('Denny Caira', 0.037734445)
+('Film Budget', 0.03122561)
+('Adventure', 0.025690554)
+('James Cameron', 0.024247296)
+('Pixar Animation Studios', 0.022682142)
+('David B. Nowell', 0.022539908)
+('marvel comic', 0.022318095)
+('Terry Claborn', 0.01921264)
+('John Williams', 0.015954955)
+('3d', 0.014985539)
+('Animation', 0.013459805)
+('John Ratzenberger', 0.013009616)
+('Christopher Boyes', 0.012793044)
+('Fantasy', 0.012175937)
+('Gwendolyn Yates Whittle', 0.011877648)
+('Lucasfilm', 0.011471849)
+('Christopher Lee', 0.011401703)
+('superhero', 0.010956859)
+('Jim Cummings', 0.010577998)
+('John Lasseter', 0.010427481)
+('Drama', 0.010378849)
 ~~~~
 
 Bonus: which actors are most associated with...
@@ -238,6 +235,11 @@ Note: for this, I ran the algorithm through **more actors** than before. That's 
 
 Obviously, Stan Lee does not make a movie producer rich. He simply cameod in all of the Marvel movies. This list shows correlation of actor with top-grossing movies more than it shows who causes a movie to do well.
 
+On including crew 
+------
+Initially, when building the models, I did not include crew members in the analysis. This was a massive oversight. Including just the top 200 producers, writers and directors in the model improved the R^2 on revenue prediction by from 0.68 to 0.77. 
+
+More impressively, this improved rating prediction from and R-squared of 0.19 to 0.53 - an astounding improvement just by adding one type of variable. More than 30% of the variance in rating is explained by crew members.
 
 Room for improvement
 ------
@@ -245,13 +247,11 @@ My method was not perfect. I discarded a fair amount of useful data, and took sh
 
 * Creating my own custom measure of success, 
 * Include ALL JSON data on actors, keywords, genres
-* Include _crew_. I have a feeling that I missed a trick when not predetermining that good crew (such as directors) are associated with good ratings.
-* Include year. 
 * Do a PCA or LDA to eliminate pointless variables
 * Run my XGBoost model through a more extreme parameter grid, picking even better parameters 
 * Explore a neural network solution, given the sheer size of this problem.
 
-Update: I included crew and film year, as mentioned above, and it improved the R^2 on revenue prediction by from 0.68 to 0.77 and on rating prediction by 0.19 to 0.53 - an astounding improvement for both! I have updated the rest of the writeup to reflect these numbers.
+
 
 Code and tools
 ------
