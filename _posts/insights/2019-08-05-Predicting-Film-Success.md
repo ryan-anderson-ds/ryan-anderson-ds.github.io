@@ -5,7 +5,7 @@ type: insights
 ---
 
 
-The Movie DB ([TMDB](https://www.themoviedb.org/)) provide an API for film data, the data which can be downloaded from [here](https://www.kaggle.com/tmdb/tmdb-movie-metadata). I strove to find out whether, **knowing only things I would know before a film was released**, what the rating and revenue of the film would be. What parameters best predict a good or top grossing film? Which cast or actors predict them?
+The Movie DB ([TMDB](https://www.themoviedb.org/)) provides an API for film data, the data which can be downloaded from [here](https://www.kaggle.com/tmdb/tmdb-movie-metadata). I strove to find out whether, **knowing only things I would know before a film was released**, what the rating and revenue of the film would be. What parameters best predict a good or top grossing film? Which cast or actors predict them?
 
 
 Summary
