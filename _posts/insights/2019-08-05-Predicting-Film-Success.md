@@ -14,7 +14,7 @@ I trained a model on a randomized 90% of the movies, and then tested it on the r
 
 * **It was a simple challenge to get a very good prediction of film revenue**. R^2 = 0.77. In laymans terms, knowing only facts about the film before release, the model can make a certifiably good prediction - enough for a cinema to decide ahead of time whether to show a film for an extended period of time, for instance.
 * **It was much more difficult to predict film rating**, but I could do a fair bit better than if I had just predicted an average rating for each movie, getting an R^2 of 0.53.
-* **Film crew** turned out to be the difference in a bad and a good film rating prediction, as well as the biggest difference between a well and poorly rated movie. Much more so than actors are.
+* **Do you even know Denny Caira? Film crew** turned out to be the difference in a bad and a good film rating prediction, as well as the biggest difference between a well and poorly rated movie. Much more so than actors are.
 * I had some fun, too. Scroll down for a **list of actors most associated with high rated and top grossing films**.
 
 ![Revenue predictions](../images/insights/predicting_film_success_2019_08_05/revenue_predictions.png "Revenue predictions")
