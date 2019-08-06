@@ -5,16 +5,16 @@ type: insights
 ---
 
 
-The Movie Database (TMDB) provide an API for film data, the data which can be downloaded from [here](https://www.kaggle.com/tmdb/tmdb-movie-metadata). I strove to find out whether, knowing only things I would know before a film was released, what the rating and revenue of the film would be. What parameters best predict a good or top grossing film? Which _actors_ predict them?
+The Movie DB ([TMDB](https://www.themoviedb.org/)) provide an API for film data, the data which can be downloaded from [here](https://www.kaggle.com/tmdb/tmdb-movie-metadata). I strove to find out whether, **knowing only things I would know before a film was released**, what the rating and revenue of the film would be. What parameters best predict a good or top grossing film? Which cast or actors predict them?
 
 
 Summary
 ------
 I trained a model on a randomized 90% of the movies, and then tested it on the remaining 10%. For these test movies:
 
-* **It was a simple challenge to get a very good prediction of film revenue**. R^2 = 0.77. In simple terms, this is not a perfect prediction, but very good. Certainly good enough for a cinema to decide ahead of time whether to show a film for an extended period of time, for instance.
+* **It was a simple challenge to get a very good prediction of film revenue**. R^2 = 0.77. In laymans terms, knowing only facts about the film before release, the model can make a certifiably good prediction - enough for a cinema to decide ahead of time whether to show a film for an extended period of time, for instance.
 * **It was much more difficult to predict film rating**, but I could do a fair bit better than if I had just predicted an average rating for each movie, getting an R^2 of 0.53.
-* Film crew, while initially discarded, turned out to be the difference in a bad and a good film rating prediction. Crew members are more important to both the revenue prediction and rating predictio models than cast. 
+* **Film crew** turned out to be the difference in a bad and a good film rating prediction, as well as the biggest difference between a well and poorly rated movie. Much more so than actors are.
 * I had some fun, too. Scroll down for a **list of actors most associated with high rated and top grossing films**.
 
 ![Revenue predictions](../images/insights/predicting_film_success_2019_08_05/revenue_predictions.png "Revenue predictions")
@@ -26,9 +26,9 @@ The data
 ![The data](../images/insights/predicting_film_success_2019_08_05/data.png "the data")
 
 The data is well labeled, but I will not bore with too many details. To summarise:
-* The data is often provided by film fans, so not everything is present or very accurate
+* TMDB is community built, with data often provided by the public, so not everything is present or very accurate. For instance, over 900 revenue values were missing. 
 * I ignored some non-useful variables, such as film title and homepage. Obviously these can't be used to predict the success of a movie.
-* Some variables were discarded for other reasons: production_country, because I felt that the information therein would be stored in production_company. Original_language, because I felt that that column would mostly be covered by spoken_languages, with a few exceptions.
+* Some variables were discarded for other reasons: production_country, because I felt that the information therein would be stored in production_company. Original_language, because I felt that that column would mostly be covered by spoken_languages, with a few exceptions. Popularity, because obviously that was measured after the film was released.
 * The variables used for **input** were:
 	- budget
 	- a list of film genres
@@ -40,7 +40,7 @@ The data is well labeled, but I will not bore with too many details. To summaris
 	- a list of crew members
 	- keywords - a list of user assigned keywords. Admittedly some of these would only be known after the movie was released, but these did not give away too much. A typical keyword would be 'based on a novel.'
 * The variables used for **model prediction** were:
-	- User vote (akin to IMDb rating)
+	- User vote (akin to IMDb rating, referred to as 'rating' throughout)
 	- User-reported box office revenue (referred to as 'revenue' throughout)
 		
 		
@@ -48,17 +48,17 @@ Data preparation
 ------
 Source file: [data_prep.py](https://github.com/rian-van-den-ander/explorations/tree/master/film_success/data_prep.py)
 
-**Problem**: some data is not good enough, especially when important variables are concerned
+**Problem**: revenue data is not good enough
 * I removed zero revenue rows, resulting in 900 rows lost. Not great, but I can't predict revenue without revenue. 
 * I adjusted revenue for inflation. Initially, I thought this wouldn't make such a difference, but it actually improved R^2 by 0.02.
 
 **Problem**: How should I represent release date?
-* I decided to separate the variables - into year, and day of the year. Year, because revenue would definitely correlate with world population and popularity of watching films by year. Day of the year, as we know film revenue can correlate with a Christmas or summer release. This paid off, as day of the year turned out to be a good predictor of revenue.
+* I decided to separate the variable into year and day of the year. Year, because revenue would definitely correlate with world population and societal patterns. Day of the year, as we know film revenue can correlate with a Christmas or summer release. This paid off, as day of the year turned out to be top-30 variable predicting revenue.
 
 **A much bigger problem**: Many columns are JSON lists of 'columns'
-* Some JSON columns had multiple data stored inside: Each of genre, keywords, production company, spoken languages, cast and crew was actually a list of genre, keywords etc.
-* I had to create [a new library](https://github.com/rian-van-den-ander/encode_json_data_within_dataframe) to transform the JSON data into columns for my model.
-* This sometimes created way too many columns (codes) for my computer to handle, so I limited this per input column. Not great either, as I would now just take the most common 500 actors as opposed to all actors, the top 100 keywords, and the top 100 film studios. This could easily be improved by hosting the solution on the cloud and throwing more power at the model training.
+* Some columns had lists stored inside: Each of genre, keywords, production company, spoken languages, cast and crew was actually a list of genre, keywords etc. These can't be processed by any machine learning libraries I know of.
+* I had to create [a new library](https://github.com/rian-van-den-ander/encode_json_data_within_dataframe) to transform these lists into columns for my model, a process known as [encoding categorical features](https://towardsdatascience.com/encoding-categorical-features-21a2651a065c)
+* This created a new issue: There are far too many cast, crew and keywords for my poor computer to handle. I had to limit this per input column. This is not great for my model, as I would now just take the most common 500 actors as opposed to all actors, the top 500 cast, the top 100 keywords, and the top 100 film studios. This could be improved by hosting the solution on the cloud and throwing more power at the model training, or by being more patient.
 
 Rows of JSON sets of actors, such as one row here... 
 ~~~ 
@@ -71,39 +71,42 @@ Rows of JSON sets of actors, such as one row here...
 
 Testing my model's success
 ------
-I chose to go with a vanilla R-squared (R^2) indication of success. This is the default option for regression problems, and is simply:
-* negative if your model performs worse than just picking the mean rating or revenue for each movie. The higher the negative, the worse.
-* zero if it your model just picks the mean movie rating or revenue for each movie. 
+I chose to go with a vanilla R-squared (R^2) indication of success. This is the default option for data scientists tackling regression problems, and is simply a measure of how much better my model is than just predicting the mean rating or revenue for each film.
+* negative if the model performs worse than just picking the mean. The higher the negative, the worse.
+* zero if it the model just picks the mean movie rating or revenue for each movie. 
 * above zero if it performs better than the mean, with "1" being the perfect model. 
-* Naturally, at some point you choose to stop when your solution is good enough. This definition differs per problem you're solving, but generally 0.6-0.9 indicates a good model, with anything above that being too good to be true. 0-0.6 means you're at least picking _something_ up, but may not be good enough to use for important business decisions, for instance.
+* Naturally, at some point you choose to stop when your solution is good enough. This definition differs per problem you're solving, but generally 
+	- 0.6-0.9 indicates a good model
+	- Anything above is too good to be true, pointing to some unfair input variables or overfitting. For instance, I accidentally included row count in my first model run, and since the data was sorted by revenue, my model almost perfectly predicted revenue. 
+	- 0-0.6 means you're at least picking _something_ up, but may not be good enough to use for important business decisions, for instance.
 
 Predicting film rating
 -----------------
 Source file: [film_rating_with_cast_best_regressor.py](https://github.com/rian-van-den-ander/explorations/blob/master/film_success/film_rating_with_cast_best_regressor.py)
 
-For this, I used all input variables including an indication, for each of the top 500 cast members in the dataset, whether they appeared in the movie.
-
-I ran the data through a [Hyperparameter grid search](https://towardsdatascience.com/grid-search-for-model-tuning-3319b259367e) using the [XGBoost regressor](https://xgboost.readthedocs.io/en/latest/) library. I tried several other libraries in the grid search, including random forest regressors. The grid search greatly improved the performance of the vanilla XGBoost regressor. 
+For my model selection, I ran the data through a [Hyperparameter grid search](https://towardsdatascience.com/grid-search-for-model-tuning-3319b259367e) using the [XGBoost regressor](https://xgboost.readthedocs.io/en/latest/) library. I tried several other libraries in the grid search, including random forest regressors and a terribly performing neural network. The grid search greatly improved the performance of the vanilla XGBoost regressor, a library which comes highly recommended for speed and accuracy. 
 
 Naturally, accurately predicting a movie rating from purely movie metadata is a bit of a pipe dream. There are a lot of variables that one won't see in the metadata, such as the quality of script, or whether the role was just perfect for Johnny Depp.
 
-That said, the best result I got was R^2 of 0.53. By machine learning standards, this is OK, but nothing to write home about. 53% of the variance beyond the average rating was explained by the model. In other words, it was missing out on a lot. However, this is still much better than an average line predicting a 6.2 rating for each movie!
+That said, the best result I got was R^2 of 0.53. By machine learning standards, this is OK, but nothing to write home about. 53% of the variance beyond the average rating was explained by the model. In other words, it was missing out on a lot, but still clearly predicting most movies that were better or worse than average. 
 
 ![Rating predictions](../images/insights/predicting_film_success_2019_08_05/rating_predictions.png "Rating predictions")
 
-Interestingly, this picture shows an intuitive quick win. The model just has to be 'tilted' in order to provide better predictions!
+Interestingly, this figure shows an intuitive quick win. The model just has to be 'tilted' in order to provide better predictions.
+
+But instead, I decided to analyse what features were most involved in the model's success:
 
 What are the variables most associated with film rating?
 ------
 
-An output from the XGBoost library provides the importance of variables it uses for prediction. This must be taken with a slight pinch of salt, given that the model itself has not made perfect predictions.
+An output from the XGBoost library provides the importance of variables it uses for prediction. This must be taken with a slight pinch of salt, given that the model itself has not made perfect predictions. However, the output provides a very clear story:
 
 ![Rating feature importances](../images/insights/predicting_film_success_2019_08_05/feature_importances_rating.png "Rating feature importances")
 
-Here, we can see only around 200 of the input variables held any importance at all. Ther rest were essentially discarded by the algorithm. That's ok! In future, I would just run the variables through an analysis ([LDA](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation)
-?) in advance to pick out those with no correlation to film rating.
+Here, we can see only around 200 of the input variables held any importance at all. Ther rest were essentially discarded by the algorithm. That's ok! In future, with a better computer, I would simply pick more input variables (crew and cast) and crunch them through an analysis ([LDA](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation)
+?) in advance to pick out those with no correlation to film rating. 
 
-In text form, the variables most associated with film rating were as follows. _Disclaimer: These can just as well be NEGATIVELY affecting the rating, as a cynic might pick up from a couple of the names (teenager, horror). The algorithm just returns the ones with the largest effect on its predictor._
+In text form, the variables most associated with film rating were as follows. _Disclaimer: These can just as well be NEGATIVELY affecting the rating, as you might pick up from a couple of the names (horror, teenager). The algorithm just returns the ones with the largest effect on its predictor._
 
 ~~~~
 ('Drama', 0.02771771)
@@ -111,7 +114,7 @@ In text form, the variables most associated with film rating were as follows. _D
 ('Horror', 0.015099976)
 ('Animation', 0.010213515)
 ('John Lasseter', 0.0099559575) - of Pixar fame
-('family', 0.009091541)
+('Family', 0.009091541)
 ('Comedy', 0.009024642)
 ('Harvey Weinstein', 0.009003568)
 ('Whoopi Goldberg', 0.008995796) - ?!
@@ -122,11 +125,11 @@ In text form, the variables most associated with film rating were as follows. _D
 ('Franchise Pictures', 0.008374982)
 ('Hans Zimmer', 0.008047262)
 ('DreamWorks Animation', 0.007945064)
-('hospital', 0.007892966)
+('Hospital', 0.007892966)
 ('Janet Hirshenson', 0.007849025)
 ('Jason Friedberg', 0.007827318)
 ('en', 0.0077783377) - English movies
-('teenager', 0.0077319876)
+('Teenager', 0.0077319876)
 ~~~~
 
 Predicting film revenue - an easier task
@@ -147,7 +150,7 @@ What are the variables most associated with film **revenue**?
 ------
 This list will be less of a surprise. Again, though, the same disclaimer applies. Variables can be negatively affecting revenue, and this model is not perfect. The list confirms the strong connection between budget and revenue. After all, why would one be making films if you did not get return on your investment? 
 
-Unsurprisingly, superhero movies and pixar movies make a strong appearance here, with their keywords, studios, genres and crew dominating the list.
+Unsurprisingly, superhero movies and pixar movies make a strong appearance here, with their keywords, studios, genres and crew dominating the list. Surprisingly, one production manager, Denny Caira, is a bigger predictor than budget. This man clearly has made a name for himself in the industry!
 
 ~~~~
 ('Denny Caira', 0.037734445)
@@ -178,7 +181,7 @@ Bonus: which actors are most associated with...
 Source file: [film_actors_to_ratings.py](https://github.com/rian-van-den-ander/explorations/blob/master/film_success/film_actors_to_ratings.py), variables modified for revenue.
 
 
-Note: for this, I ran the algorithm through **more actors** than before. That's why it does not exactly correspond with previous lists.
+Note: for this, I ran the algorithm through **more actors** than before, and did not include other variables such as crew or budget. This is purely about the correlation between an actor and film success. That's why the names do not exactly correspond with previous lists.
 
 **Which actors are most associated with film rating?**
 
@@ -209,6 +212,8 @@ Note: for this, I ran the algorithm through **more actors** than before. That's 
 
 **Which actors are most associated with film revenue?**
 
+Obviously, Stan Lee does not make a movie producer rich. He simply cameod in all of the Marvel movies. This list shows correlation of actor with top-grossing (generally superhero) movies more than it shows who causes a movie to do well.
+
 ~~~~
 ('Stan Lee', 0.04299625)
 ('Hugo Weaving', 0.030377517)
@@ -233,7 +238,7 @@ Note: for this, I ran the algorithm through **more actors** than before. That's 
 ('Liam Neeson', 0.012093888)
 ~~~~
 
-Obviously, Stan Lee does not make a movie producer rich. He simply cameod in all of the Marvel movies. This list shows correlation of actor with top-grossing movies more than it shows who causes a movie to do well.
+
 
 On including crew 
 ------
@@ -245,13 +250,12 @@ Room for improvement
 ------
 My method was not perfect. I discarded a fair amount of useful data, and took shortcuts. If I were to go for the best possible solution, especially to try improve my rating prediction, I would:
 
-* Creating my own custom measure of success, 
-* Include ALL JSON data on actors, keywords, genres
-* Do a PCA or LDA to eliminate pointless variables
+* Including ALL data on actors, keywords, genres. This would need a lot more processing power, but would likely help my model pick out many of the outliers, especially those enigmatic actors and directors who aren't just revenue churning machines
+* Model training: My XGBoost grid took almost a day to run. Being lazy, I ran it only on revenue. Retuning the model hyperparameters to a rating prediction would slightly improve the prediction thereof.
+* Including zero revenue films in my rating prediction, as I was too lazy to change the data preparation phase per prediction
+* Doing a PCA or LDA to eliminate any obviously uncorrelated variables
 * Run my XGBoost model through a more extreme parameter grid, picking even better parameters 
 * Explore a neural network solution, given the sheer size of this problem.
-
-
 
 Code and tools
 ------
