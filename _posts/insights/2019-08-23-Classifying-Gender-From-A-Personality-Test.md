@@ -8,7 +8,7 @@ An interesting machine learning classification problem popped up on reddit this 
 
 Summary (spoilers)
 ------
-1. It is relatively easy, and unsurprisingly so, to be able to predict a person's gender based on their personality test results. I managed 82% accuracy after a few rounds of model improvements.
+1. It is relatively easy, and unsurprisingly so, to be able to predict a person's gender based on their personality test results. I managed 82% accuracy after a few rounds of model improvements. Using an SVM with some cleaned and engineered data returned the best result.
 
 2. Personality also changes with age. In fact. every single personality trait changes with age and gender.
 
@@ -170,6 +170,8 @@ Code: [GitHub](https://github.com/rian-van-den-ander/explorations/tree/master/pe
 
 Of course, having done this prediction, I wanted to see which personality factors do predict gender well. I used the XGBoost's feature importance algorithm for this. Thanks to confirmation bias, these won't surprise you! Please take note, though, that these are the personality traits that the *model* deemed appropriate. It is possible that a better model exists which comes up with a different set of important features. However, given the good accuracy I got, this is unlikely.
 
+The prediction is absolutely dominated by Sensitivity. However, an important point is that all traits are considered important by the model: all are used for the prediction, and all therefore differ (or the relationship between them differs, since this is non linear) between genders.
+
 ![Gender predictors](../images/insights/gender_2019_08_23/genderpredictors.png "Gender predictors")
 
 Bonus: which personality traits predict age the best?
@@ -182,7 +184,7 @@ However, when switching to an age regressor, i.e. trying to predict the general 
 
 This was unexpectedly sad. As we get older, we greatly lose our tendency to imagine. 
 
-![Age predictors](../images/insights/gender_2019_08_23/genderpredictors.png "Age predictors")
+![Age predictors](../images/insights/gender_2019_08_23/agepredictors.png "Age predictors")
 
 Conclusion
 ------
