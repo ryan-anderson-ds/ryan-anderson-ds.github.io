@@ -5,7 +5,7 @@ type: insights
 ---
 
 
-The Movie DB ([TMDB](https://www.themoviedb.org/)) provide an API for film data, the data which can be downloaded from [here](https://www.kaggle.com/tmdb/tmdb-movie-metadata). I strove to find out whether, **knowing only things I would know before a film was released**, what the rating and revenue of the film would be. What parameters best predict a good or top grossing film? Which cast or actors predict them?
+The Movie DB ([TMDB](https://www.themoviedb.org/)) provides an API for film data, the data which can be downloaded from [here](https://www.kaggle.com/tmdb/tmdb-movie-metadata). I strove to find out whether, **knowing only things I would know before a film was released**, what the rating and revenue of the film would be. What parameters best predict a good or top grossing film? Which cast or actors predict them?
 
 
 Summary
@@ -99,11 +99,11 @@ But instead, I decided to analyse what features were most involved in the model'
 What are the variables most associated with film rating?
 ------
 
-An output from the XGBoost library provides the importance of variables it uses for prediction. This must be taken with a slight pinch of salt, given that the model itself has not made perfect predictions. However, the output provides a very clear story:
+An output from the XGBoost library provides the importance of features (input variables) it uses for prediction. This must be taken with a slight pinch of salt, given that the model itself has not made perfect predictions. However, the output provides a very clear story:
 
 ![Rating feature importances](../images/insights/predicting_film_success_2019_08_05/feature_importances_rating.png "Rating feature importances")
 
-Here, we can see only around 200 of the input variables held any importance at all. Ther rest were essentially discarded by the algorithm. That's ok! In future, with a better computer, I would simply pick more input variables (crew and cast) and crunch them through an analysis ([LDA](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation)
+Here, we can see only around 200 of the input variables held any importance at all. The rest were essentially discarded by the algorithm. That's ok! In future, with a better computer, I would simply pick more input variables (crew and cast) and crunch them through an analysis ([LDA](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation)
 ?) in advance to pick out those with no correlation to film rating. 
 
 In text form, the variables most associated with film rating were as follows. _Disclaimer: These can just as well be NEGATIVELY affecting the rating, as you might pick up from a couple of the names (horror, teenager). The algorithm just returns the ones with the largest effect on its predictor._
@@ -216,7 +216,7 @@ Obviously, Stan Lee does not make a movie producer rich. He simply cameod in all
 
 ~~~~
 ('Stan Lee', 0.04299625)
-('Hugo Weaving', 0.030377517)
+('Hugo Weaving', 0.030377517) - "You hear that Mr, Anderson? That is the sound of inevitability. That is the sound of profit"
 ('John Ratzenberger', 0.024940673) - In every Pixar film
 ('Frank Welker', 0.018594962)
 ('Alan Rickman', 0.01844035)
