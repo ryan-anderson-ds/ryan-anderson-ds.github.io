@@ -4,7 +4,7 @@ title: Exploring my Tinder data - what correlates with matches?
 type: insights
 ---
 
-In an earlier post, [I looked at the raw stats](https://rian-van-den-ander.github.io/9-Months-Tinder-Amsterdam/) of my Tinder for the first 9 months in Amsterdam. In this post, I'll show my attempt at finding any patterns or useful real-world conclusions from my data. I do find one unexpected correlation, as well as an interesting personal insight. 
+I’ve been in Amsterdam for 9 months now, and have used Tinder as a way both to date and to have an interesting social life. In this post, I'll show my attempt at finding any patterns or useful real-world conclusions from my Tinder data. I do find one unexpected correlation, as well as an interesting personal insight. 
 
 **Constants, assumptions:**
 * I spent these 9 months almost entirely in Amsterdam. On weekends away and my one week holiday, I barely used Tinder.
@@ -69,7 +69,7 @@ This was easy to measure - I would just look at the ratio between my left and ri
 
 Now _this_ was interesting!
 * Firstly, at the moment, my ratio was exactly the same as when I started. I hadn't gotten any pickier overall
-* Secondly, the difference between a "picky" Ryan and a "desparate Ryan" was a factor of 4!
+* Secondly, the difference between a "picky" Ryan and a "desperate Ryan" was a factor of 4!
 
 Note: Here, again, the methodology is not perfect. Tinder is known to put more attractive people (determined on the ratio of likes they get) on the top of your stack. If you move to a new city, or install Tinder, you are more likely to be presented with good looking human beings. As you get to the bottom of the stack, not everyone is a perfect 10. So my pickiness number here could easily have been influenced by how full the stack of Amsterdammers was at the moment. For instance, had I not used Tinder for a few months, I probably would have swiped right on more profiles for two reasons:
 * Clearly I was back on Tinder on a mission 
