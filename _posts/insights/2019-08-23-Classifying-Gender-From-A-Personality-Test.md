@@ -151,7 +151,7 @@ I had previously read that for non linear problems with only slightly differenti
 
 However, if my problem is *too* non-linear, SVM would suffer, as it still needs some linear space to work in for most 'kernels' it runs - a kernel being essentially the type of shape it uses to draw between the genders, say a circle around the males. However, you can make it a bit more linear by adding dimensions for this shape to wrap around. 
 
-To do this, I added columns for the relationship between every personality trait. 
+To do this, I added columns for the relationship between every personality trait.Â 
 First, this meant averaging out all the answers per trait, resulting in 16 columns.
 
 ![Averaged traits](../images/insights/gender_2019_08_23/averaged.png "Averaged traits")
@@ -200,6 +200,5 @@ Code: [GitHub](https://github.com/rian-van-den-ander/explorations/tree/master/pe
 
 Tools: Python, xgboost
 
- 
 
 
