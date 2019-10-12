@@ -42,7 +42,7 @@ Code and tools
 **Code**: [GitHub](https://github.com/rian-van-den-ander/explorations/tree/master/netflix_offerings)
 
 **Data**: 
-[Wikipedia show list](https://en.wikipedia.org/wiki/List_of_original_programs_distributed_by_Netflix)
+[Wikipedia show list](https://en.wikipedia.org/wiki/List_of_original_programs_distributed_by_Netflix) and 
 [IMDb ratings](https://datasets.imdbws.com/)
 
 
