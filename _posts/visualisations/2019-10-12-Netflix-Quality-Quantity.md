@@ -31,7 +31,7 @@ But this is all just theory. Can we prove that people are unhappier with Netflix
 
 ![world](../images/visu/netflix_quantity_quality/averageuserinteraction.png "netflix - quantity vs quality")
 
-We can see quite clearly that people are unhappier with Netflix shows (Or maybe with shows in general!) What really sticks out here is that the year with the most highly rated shows - 2018 - *corresponded with the unhappiest users.* Fortunately, things have perked up in 2019. Maybe Netflix's algorithms are actually working, delivering us content better suited to us. Or maybe we've learnt how to pick shows for ourselves.
+It's not a massive change, down from a peak if 8.6 to a trough of just under 7, but remember that this is representing hundreds of millions of votes. This is a lot of cumulative enjoyment: so it's quite clear that people are unhappier with Netflix shows (Or maybe with shows in general!) What really sticks out here, though, is that the year with the most highly rated shows - 2018 - corresponded with the unhappiest users. Fortunately, things have perked up in 2019. Maybe Netflix's algorithms are actually working, delivering us content better suited to us. Or maybe we've learnt how to pick shows for ourselves.
 
 So what advice would Barry Schwartz and his sources give to Netflix? Probably to reduce the amount of options they put out, or at least reduce the options they show to you, the viewer. Netflix absolutely do this to some extent. He would probably also tell them to cool it on trying to suggest movies and shows by the optimum category that their algorithm decided for the user, but rather do suggestions more by rating. Because, to put it frankly, they are suggesting utter rubbish to us when there are really high rated shows hidden behind the fold or a few clicks away. If they want to keep us for the long term, they need to improve our average interaction with them, as shown in the last graph.
 
@@ -46,10 +46,6 @@ Code and tools
 **Data**: 
 [Wikipedia show list](https://en.wikipedia.org/wiki/List_of_original_programs_distributed_by_Netflix) and 
 [IMDb ratings](https://datasets.imdbws.com/)
-
-
-
-
 
 **Tools:** Python, GIMP
 
