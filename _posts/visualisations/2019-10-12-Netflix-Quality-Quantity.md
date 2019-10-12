@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Netflix - Quantity, Quality, and the paradox of choice
+title: Netflix - Quantity, quality, and the paradox of choice
 type: visualisations
 ---
 
