@@ -3,9 +3,9 @@ layout: post
 title: Netflix - Quantity, quality, and the paradox of choice
 type: visualisations
 ---
-Note: This post was published and editorialised by Medium: [See the editorialised version here](https://forge.medium.com/netflix-quantity-quality-and-the-paradox-of-choice-5336f4b1be90).
-
 I have been disappointed with Netflix lately. After they delisted a few of my favourite shows (especially Doctor Who), and I struggled to find anything new and good to watch, I started wondering if the Netflix Overlords had made a strategic decision to offer cheaper, lower quality, but more variety of content to hopefully satisfy us through their machine learning algorithms finding just the right show for an individual, as opposed to focusing on making brilliant shows for all to enjoy. I was (somewhat) wrong!
+
+**Note: This post was published and editorialised by Medium: [See the editorialised version here](https://forge.medium.com/netflix-quantity-quality-and-the-paradox-of-choice-5336f4b1be90).**
 
 Unfortunately, it is impossible to obtain data of all the externally produced shows Netflix offered, year by year. Fortunately, this is available for Netflix originals, from [Wikipedia](https://en.wikipedia.org/wiki/List_of_original_programs_distributed_by_Netflix), and the show ratings are available from [IMDb](https://datasets.imdbws.com/). Note that these are not just series - the shows include movies, documentaries, mini-series, etc.
 
