@@ -172,6 +172,18 @@ The features are ordered by **potential gain**: the power of the feature in the 
 
 ![Visualisation](../images/insights/training_plan/mydata-1.png "Visualisation")
 
+Productionising
+-------
+Productionising at this scale was fairly straightforward, and I went with an entirely Google Cloud setup. The result is that everything is blazing fast, apart from the Strava API queries which are rate limited at around 1 per second.
+
+* Since the feature engineering and machine learning back-end is run on Python, I went with a Flask front-end
+* The solution is hosted on Google Cloud App Engine
+* The database is hosted on Google Cloud SQL
+* Cron jobs run the feature engineering and ML training algorithms once new athletes subscribe
+* Flask queries the back-end to generate matplotlib images when the loads their visualisation pages
+
+
+
 What's next?
 -------
 There are many improvements that can be made, **especially to the visualisations an explanations thereof**. However, first, I would like to acquire more data in order to build a better model explaining what it takes to get faster. This more causal model will be infinitely more useful to individual athletes. So, if you're a runner, please [sign up!](http://howeffectiveismyrunningplan.appspot.com)
