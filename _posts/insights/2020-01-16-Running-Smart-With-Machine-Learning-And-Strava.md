@@ -164,7 +164,10 @@ Here, we the [SHAP plot](https://github.com/slundberg/shap) is not as healthy. T
 
 ![Features explaining vdot](../images/insights/training_plan/features_vdot_delta.png "Features explaining vdot")
 
-The best R^2 I got for this model was 0.5, so to reiterate: *with the current dataset size, even for the most explicable athlete performance, it only explains up to 50% of the factors involved in getting faster.* Furthermore, this model is less likely to be linear. Some might run PBs by being new to the sport, so the model may decide "Those who run less than 30km per week on average need to have run more than usual to achieve their PB, but those who run more than 120km per week need to run relatively less but run faster." However, let's take a look at what an intentional selection of the features say:
+The best R^2 for this model was 0.5. Therefore, with the current dataset size, even for the most explicable athlete performance, it only explains up to 50% of the factors involved in getting faster. 
+
+Equally importantly, this model is less linear than the model predicting purely vdot. Some athletes might run PBs by being new to the sport, so the model may decide "Those who run less than 30km per week on average need to have run more than usual to achieve their PB, but those who run more than 120km per week need to run relatively less but run faster." However, let's take a look at what an intentional selection of the features say:
+
 * Run. a lot.
 * Ride relatively less than before (I live in the Netherlands, as do many of the athletes in the dataset, so it has probably picked up that when we finally stop cycling over our beloved summer, and concentrate on running, we get faster)
 * **f_slope_time_before_taper**: This is an indication of the "ramp up" of time spent exercising before the athlete does their taper. It is deemed important to either ramp things up a lot (for some athletes), or decrease load a little bit (more athletes)
