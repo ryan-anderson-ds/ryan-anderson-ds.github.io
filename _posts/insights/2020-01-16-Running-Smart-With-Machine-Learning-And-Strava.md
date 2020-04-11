@@ -21,7 +21,7 @@ After obtaining data from multiple runners, I built two models:
 * A model which can predict, with up to 89% accuracy (R^2), what time an athlete will run in a race (5k to 42k) based purely on their training programme. In other words determining their pace without using their pace data at all. This model is not always useful to the average runner, because there is lots of correlation involved between how fast you are an how often or far you run. When compared to the model, the average athlete can see how they train relative to the top athletes, but not see how to get there.
 * A model which can predict, with only up to 54% accuracy (R^2), how much an athlete will **improve** based on their training programme. This model is much more useful to runners, because it can show the average runner what to do to get better. However, I feel that I need much more training data to get this to an acceptable 70%.
 
-The entire system is now available in a [simple website](http://howeffectiveismyrunningplan.appspot.com), where athletes can sign up and gain insights into their training plan. 
+The entire system is now available in a [simple website](http://howeffectiveismyrunningplan.appspot.com), where athletes can sign up and gain insights into their training plan [update: I have taken the website down as the system ran through my hosting budget very quickly]. 
 
 A prototype visualisation for the system output from the first model is shown below. Here, the blue markers show how the athlete trains, relative to the top 10% and bottom 10% of athletes. The list is ordered in order of the most important factors in that athlete's training, a product of the importance of each factor and the athlete's shortcoming in it. 
 
@@ -72,7 +72,7 @@ And if that isn't enough, there also exists science on [how much to increase you
 
 The running science, simplified
 -------
-Given all of the above, for each athlete, there exists an optimal but _fucking_ difficult to find balance of training between
+Given all of the above, for each athlete, there exists an optimal but _fucking_ difficult to find balance between
 * Easy and hard effort per activity
 * Running and resting, depending on your previous activities
 * Easy runs, long runs, interval trainings, tempo runs
@@ -196,4 +196,4 @@ Productionising at this small scale was fairly straightforward, and I went with 
 
 What's next?
 -------
-There are many improvements that can be made, **especially to the visualisations an explanations thereof**. However, first, I would like to acquire more data in order to build a better model explaining what it takes to get faster. This more causal model will be infinitely more useful to individual athletes. So, if you're a runner, please [sign up!](http://howeffectiveismyrunningplan.appspot.com)
+There are many improvements that can be made, **especially to the visualisations an explanations thereof**. However, first, I would like to acquire more data in order to build a better model explaining what it takes to get faster. This more causal model will be infinitely more useful to individual athletes.
