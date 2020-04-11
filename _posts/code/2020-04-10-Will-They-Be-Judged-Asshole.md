@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Will they be judged to be an asshole? A Natural Language Processing example with Convolutional Neural Networks and Embedding
+title: Are they an asshole? A Natural Language Processing example with Convolutional Neural Networks and Embedding
 type: code
 ---
 
