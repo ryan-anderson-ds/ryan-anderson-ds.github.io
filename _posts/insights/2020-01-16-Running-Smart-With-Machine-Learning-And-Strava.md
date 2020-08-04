@@ -72,7 +72,7 @@ And if that isn't enough, there also exists science on [how much to increase you
 
 The running science, simplified
 -------
-Given all of the above, for each athlete, there exists an optimal but _fucking_ difficult to find balance between
+Given all of the above, for each athlete, there exists an optimal but _very_ difficult to find balance between
 * Easy and hard effort per activity
 * Running and resting, depending on your previous activities
 * Easy runs, long runs, interval trainings, tempo runs
