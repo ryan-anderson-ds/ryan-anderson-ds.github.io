@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Emotions soaring during Covid-19 - Emotion detection over 100 million tweets
+title: Emotions soaring during Covid-19 - Emotion detection over 100 million tweets since January
 type: visualisations
 ---
 
