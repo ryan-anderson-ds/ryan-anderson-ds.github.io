@@ -4,7 +4,7 @@ title: Emotions soaring during Covid-19 - Emotion detection over 100 million twe
 type: visualisations
 ---
 
-I ran 100 million covid-related tweets through my own [emotion-detecting neural network](../Multi-Label-Emotion-Classification/). I won't try to explain the reasons behind the results, since this is an area rife with correlation, US-bias and a very complex system. However, some very interesting patterns emerge!
+I ran 100 million covid-related tweets through my own [emotion-detecting neural network](../Multi-Label-Emotion-Classification/). I won’t try to explain the reasons behind the results, since this is an area rife with correlation, Twitter’s US-bias and a of course a very complex system. However, some very interesting patterns emerge! Furthermore, it is clear that this algorithm could be applied to solve other problems: a generalised approach to automate detecting emotional shifts towards a particular topic on Twitter which can have powerful business applications.
 
 Before you see the visualisation, some quick notes:
 * Each emotion has a "cutoff" point - you're only seeing the top half of each emotion graph to show the excess emotions on display on Twitter. These emotions are still occuring throughout the year, just less than the yearly average.
@@ -12,11 +12,17 @@ Before you see the visualisation, some quick notes:
 
 ![world](../images/visu/covid-emotions.png "covid-emotions")
 
-The first thing that one can see is the clear phases of emotions that Twitter goes through. A brief bout of confusion and amusement is soon replaced with caring, fear and gratitude as the USA issues stay-at-home orders. As things start descending into chaos, we begin to see some heavy negative emotions: anger, annoyance, embarrassment, disappointment and even worse: rising disgust, many probably as a result of those shaming people for refusing to take the crisis seriously.
+The first thing that one can see is the clear phases of emotions that Twitter goes through. A brief bout of confusion and amusement is soon replaced with caring, fear and gratitude as the USA issues stay-at-home orders. As things start descending into chaos, we begin to see some heavy negative emotions: anger, annoyance, embarrassment, disappointment and even worse: rising disgust. Many of these emotions are probably a result of those shaming people for refusing to take the crisis seriously.
 
-Polarised emotions are a thing! Perhaps especially in a two-party democracy such as the USA. Look at "approval" vs "disapproval" - they are often correlating, except in early May. What happened then? Similarly, fear and gratitude seem to correlate.
+Secondly, polarised emotions are a thing! Perhaps especially in a two-party democracy such as the USA, or a platform used to express opinions on matters, such as Twitter. This is evident in two conflicting emotions: “approval” vs “disapproval” are often correlating, except in early May. What happened then? Similarly, fear and gratitude seem to correlate.
 
-The strongest of all emotions in relative terms are the spikes in confusion and gratitude. The early spike in confusion makes absolute sense, but one can only make theories about gratitude. For instance, maybe summer holidays have arrived and people _really_ don't take this summer for granted after staying at home in spring!
+The strongest of all emotions in relative terms are the spikes in confusion and gratitude. The early spike in confusion makes absolute sense, but one can only make theories about gratitude. For instance, maybe summer holidays have arrived and people really don’t take this summer for granted after staying at home in spring!
+
+So what can one take away from this?
+
+From a global wellbeing perspective, emotions have obviously gotten more negative over the last few months as the reality has hit: The world was not ready (in almost any way) to face a global pandemic like this. Besides some approval, there is no overwhelmingly positive pattern of any emotion on Twitter. It’s a place to vent. So, when you enter the echo chamber of Twitter, do so wisely! It is an angry place. Look after yourself when online and keep in mind that the world’s emotions are not well. Beyond that, I would not recommend making any strong conclusions from correlations that are shown in the data.
+
+From a technical perspective, have a look at the source code, provided below. This type of twitter emotion detection can be applied, and automated, to other things. Want to see people’s attitudes change to a particular hashtag? Want to pick up when emotions shift towards your company or sports team? Automate it with a CNN and Twitter’s API. Apply some simple anomaly detection on top of it to alert you of PR disasters, or even opportunities to invest in particular areas as global emotions shift.
 
 Technical stuff
 ------
