@@ -28,8 +28,6 @@ So what did I find? By categorizing each gratitude entry, I found 35 categories 
 
 ![Gratitude](../images/insights/gratitude/all.png "Gratitude")
 
-Source: Author
-
 As you can see, I was particularly grateful for my living situation in Amsterdam and the Netherlands. As someone who had emigrated from overseas just a year prior, this makes sense. Happiness and gratitude is a relative thing [2]. Having lived in a country in relative turmoil, I was now extremely grateful to be in a country where everything... just worked. 
 
 Secondly, also probably somewhat due to relative circumstances, I was very grateful for the  improvements in my social life. Of course, moving to a new city had resulted in some loneliness in the first year. It's not easy to make new friends in your 30s. However, after a lot of effort, things were clearly looking up.
@@ -38,8 +36,6 @@ Then came a long list of other things I was grateful for. This proved a challeng
 
 ![Gratitude](../images/insights/gratitude/categories.png "Gratitude")
 
-Source: Author
-
 Here, I could start to see a useful pattern. My gratitude, and therefore my happiness, was very heavily influenced by people, romance, and living in a wonderful place. Conversely, basic needs were underrepresented - this makes sense, as I have led a privileged life where my basic needs have almost always been met.
 
 Very surprisingly, Accomplishment was very low, and "Possessions and financial security" quite low too. Both of these had many sub-categories, so their presence low in the chart indicated a big learning point for me, and hopefully for you, too: We spend a large portion of our life chasing accomplishment and possessions: 8-12 hours a day working or commuting to work, an hour or two a day exercising. Yet, these aren't the things that make me (or us [2]) feel grateful! Logically, we should be maximising time spent with people we value, and enjoying surroundings and experiences that we cherish. To a point - of course we also still need to put food on the table. Yet, in my case, I spend maybe one or two hours per day on experiencing any of the top 6 gratitude categories. Ouch.
@@ -47,8 +43,6 @@ Very surprisingly, Accomplishment was very low, and "Possessions and financial s
 Finally, it would be useful to look for any temporal patterns: I wanted to see if there was a pattern over the year for any particular type of gratitude. Only one: "Surroundings and city" takes off heavily in summer. Of course it did. Dutch summers are great. 
 
 ![Gratitude](../images/insights/gratitude/year.png "Gratitude")
-
-Source: Author
 
 There were many patterns reflected across the board, but these are largely due to my efforts to keep the project going. Firstly, there is the obvious jump of all gratitude in January due to a resolute attempt to be more grateful for my life. Thereafter, I really struggled to maintain this habit during the latter winter and spring months. With everything else happening (Seasonal depression, covid-19, heartbreak...), it was hard to keep this project up, despite having the diary next to my bed all year. However, things started picking up again in Summer due to a strong resolution to revisit this project, and of course due to the summer! Finally in September, some time away which provided a much needed boost to my mood and positive thoughts, even further accelerating the amount of grateful entries into the diary.
 
