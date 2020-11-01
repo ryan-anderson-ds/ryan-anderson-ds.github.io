@@ -4,14 +4,11 @@ title: About
 permalink: /about/
 ---
 
-* Studied electrical and computer engineering
-* Studied MBA, specialising in strategy and advanced leadership. Thesis modeled cryptocurrency demand in developing countries
-* Worked as an automation engineer in a steel factory
-* Worked as a software developer in financial automation projects
-* Worked as a product manager of a machine learning product building psychological constructs
-* Working as a product manager at booking.com
-* True love: data science, machine learning, and finding _meaningful_ applications thereof
-* Spare time: triathlons, trail running, beer
+* Professional Data Scientist at a large tech firm in Amsterdam
+* Studied MBA, specialising in strategy and advanced leadership
+* Studied BSc. Electrical and Computer Engineering
+* Calling: Finding _meaningful_ applications of Data Science / Machine Learning / Intelligence Augmentation to help us be better, more wholesome, humans in a sustainable environment. Responsible AI.
+* Spare time: trail running, swimrun
 
 ### Contact me
 
