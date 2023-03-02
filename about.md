@@ -12,4 +12,4 @@ permalink: /about/
 
 ### Contact me
 
-[rian.vandenander@gmail.com](mailto:rian.vandenander@gmail.com)
+[ryan.a.anderson@gmail.com](mailto:ryan.a.anderson@gmail.com)
