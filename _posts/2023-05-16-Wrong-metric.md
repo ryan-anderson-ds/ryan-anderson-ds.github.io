@@ -1,5 +1,8 @@
-
-# The world is driven by the wrong metric
+---
+layout: post
+title: The world is driven by the wrong metric
+type: insights
+---
 
 ![The world is driven by the wrong metric](../images/growth1.png)
 
