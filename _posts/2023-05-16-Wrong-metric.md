@@ -17,7 +17,7 @@ Yet, the **entire world** is driven by a deeply entrenched metric that is leadin
 
 It’s growth. Gross Domestic Product (GDP). Your company’s bottom line. The relentless pursuit of more.
 
-_Side note:_ This rant borrows multiple ideas from the book _Prosperity Without Growth_ by Tim Jackson. Credit where credit is due. However, I don’t always agree with the ideas there. If  this article tickles your fancy, be sure to give the book a read, as it goes into these concepts far more in-depth, and with more references than here._
+_Side note:_ This rant borrows multiple ideas from the book _Prosperity Without Growth_ by Tim Jackson. Credit where credit is due. However, I don’t always agree with the ideas there. If  this article tickles your fancy, be sure to give the book a read, as it goes into these concepts far more in-depth, and with more references than here.
 
 
 ## Let’s first agree on the problem
