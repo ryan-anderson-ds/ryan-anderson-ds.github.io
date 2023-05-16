@@ -1,10 +1,9 @@
 ---
 layout: page
-title: Consulting
-permalink: /about/
+title: Consulting Services
+permalink: /consulting/
 ---
 
-### Consulting services
 I am employed as a senior data scientist at a large tech firm in Canada, but have loads of spare time! Therefore, I offer part time consulting as a side-hustle.
 
 ### What do I specialise in?
