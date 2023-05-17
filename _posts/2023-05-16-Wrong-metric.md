@@ -194,8 +194,7 @@ This doesn’t cover the problems which we need to solve with wealth redistribut
 
 Now time for more cynicism and sadness. When you read the above, you probably thought “Hah, as if we could actually do that.” 
 
-I feel the same. I don’t think this is going to happen (fast enough). We have too much of a [prisoner’s dilemma](https://en.wikipedia.org/wiki/Prisoner%27s_dilemma) between people and between countries. One rich person isn’t going to _permanently_ redistribute their wealth to the poor unless all do. One country isn’t going to take a short term hit to their economies by making (very necessary) outrageous changes to their environmental impact, when they are locked in competition with other countries. For two reasons.
-
+I feel the same. I don’t think this is going to happen (fast enough). Personally, we are limited by the [The Dragons of Inaction](https://www.researchgate.net/publication/254734365_The_Dragons_of_Inaction_Psychological_Barriers_That_Limit_Climate_Change_Mitigation_and_Adaptation), a set of factors preventing us from making change, fast. The primary dragon, a lack of momentum, is best described as having too much of a a [prisoner’s dilemma](https://en.wikipedia.org/wiki/Prisoner%27s_dilemma) between people and between countries. One rich person isn’t going to _permanently_ redistribute their wealth to the poor unless all do. One country isn’t going to take a short term hit to their economies by making (very necessary) outrageous changes to their environmental impact, when they are locked in competition with other countries.
 
 
 1. It’s a massive undertaking to change the system **everything** runs on.
@@ -237,9 +236,15 @@ Truly, if you do that just a little bit, not only will it improve your company�
 
 For example,
 
-
-
 * For the long term, companies like Facebook should be measuring the positive interactions between communities and individuals, and measuring the negative interactions and polarisation of political and cultural viewpoints
 * Companies like Amazon should really be measuring and pushing the reduction of long-distance shipping and unsustainable products. But instead, they obscure this information in favour of short-term maximisation of sales.
 
 We, as white collar workers worried about our futures in a fast-changing world, should really be focusing on the long term viability of the company as much as short term metrics. Yet, we tend to chase quarterly or more frequent metrics like short term engagement and anomalies over the really big picture. We work for companies that claim that they want to be “100 year companies,” yet the _actual_ changes required for this need to come from us - the lowly workers in the ranks - as much as they need to come from the CEOs.
+
+
+
+### Appendix: Related reading
+
+* [Prosperity Without Growth](https://timjackson.org.uk/ecological-economics/pwg/): Not the inspiration behind this article, but a large part of reading I did towards it. Goes very in-depth into multiple topics mentioned above
+* [The Dragons of Inaction](https://www.researchgate.net/publication/254734365_The_Dragons_of_Inaction_Psychological_Barriers_That_Limit_Climate_Change_Mitigation_and_Adaptation): The psychological barriers preventing us from climate change action
+
