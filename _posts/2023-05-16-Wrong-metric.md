@@ -167,7 +167,7 @@ What society is currently trying, albeit lazily, is working with the same concep
 A common traditional argument to the world bursting at the seams is that “we’ll get more efficient.” But how much more? Currently, we’d need two hundred times the raw materials to raise everyone to a developed-country level of prosperity in the income sense. So it’s a struggle to see what technological improvements are going to bring more than a two-hundredfold efficiency improvement. Decoupling isn’t going to work.
 
 
-### The metric of choice
+## The metric of choice
 
 Ideally, a completely different economic structure is needed for the world: We stop measuring growth via GDP. Instead, we measure societal growth, in improvement in people’s lives. 
 
@@ -190,7 +190,7 @@ Such a metric would work for companies and their respective growth, too. We woul
 This doesn’t cover the problems which we need to solve with wealth redistribution (both nationally and internationally), purely because it’s a whole tangential topic to cover, and even less my area of expertise. However, it’s important to acknowledge that firstly, GDP has been shown to work quite well in very poor countries, because basic goods and services are still very much a primary need for individuals therein. Secondly, that GDP works very badly for rich countries. While average income has increased remarkably in the US, Japan, and UK, happiness has stagnated in the last few decades. This is why it’s not hard to see that wealth redistribution from rich to poor countries should have a very high net happiness gain in the world.
 
 
-### :(
+## :(
 
 Now time for more cynicism and sadness. When you read the above, you probably thought “Hah, as if we could actually do that.” 
 
@@ -210,7 +210,7 @@ So how are the next few decades going to play out? There are a few cases, bar mo
 * Most likely, something in between. Lots of people die by 2050, the world as we know it collapses, but new governments and societies rise out of the ashes, **_with all the awesome technology we now have, and start afresh in a slightly more extreme weathered, slightly less welcoming world._** 
 
 
-### But we’re not economic policy setters! Forget about the big picture and government policy changes. Change your individual consumerist mindset
+## But we’re not economic policy setters! Forget about the big picture and government policy changes. Change your individual consumerist mindset
 
 We’re all in agreement on two things:
 
@@ -226,7 +226,7 @@ In your home life, question what makes you happy. Do you really need the new iPh
 When investing, invest in companies that bring long term positive impact. Yes, you might lose money initially versus investing in big tech, oil, cigarettes or minced dolphins. But, think about how Covid changed the paths of companies that were resilient and prepared for a dystopian future. Look at how an electricity crisis in some countries in South Africa pushed them towards being more solar powered. By investing in sustainable, forward-thinking companies, you very well might be making a very good investment, and a lot of profit as things get worse. 
 
 
-### Change your corporate mindset
+## Change your corporate mindset
 
 In your corporate life, there’s a simple fix for now. If you’re a data scientist or analyst, you’ve probably been taught that in interviews for big tech, you need to link every interview answer to the company’s bottom line: growth. That needs to change (maybe not in the interview process, though!)  
 
@@ -243,7 +243,7 @@ We, as white collar workers worried about our futures in a fast-changing world, 
 
 
 
-### Appendix: Related reading
+## Appendix: Related reading
 
 * [Prosperity Without Growth](https://timjackson.org.uk/ecological-economics/pwg/): Not the inspiration behind this article, but a large part of reading I did towards it. Goes very in-depth into multiple topics mentioned above
 * [The Dragons of Inaction](https://www.researchgate.net/publication/254734365_The_Dragons_of_Inaction_Psychological_Barriers_That_Limit_Climate_Change_Mitigation_and_Adaptation): The psychological barriers preventing us from climate change action
