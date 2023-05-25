@@ -239,7 +239,7 @@ For example,
 * For the long term, companies like Facebook should be measuring the positive interactions between communities and individuals, and measuring the negative interactions and polarisation of political and cultural viewpoints
 * Companies like Amazon should really be measuring and pushing the reduction of long-distance shipping and unsustainable products. But instead, they obscure this information in favour of short-term maximisation of sales.
 
-We, as white collar workers worried about our futures in a fast-changing world, should really be focusing on the long term viability of the company as much as short term metrics. Yet, we tend to chase quarterly or more frequent metrics like short term engagement and anomalies over the really big picture. We work for companies that claim that they want to be “100 year companies,” yet the _actual_ changes required for this need to come from us - the lowly workers in the ranks - as much as they need to come from the CEOs.
+We, as white collar workers worried about our futures in a fast-changing world, should really be focusing on the long term viability of the company as much as short term metrics. Yet, we tend to chase quarterly or more frequent metrics like short term engagement and anomalies over the really big picture. We work for companies that claim that they want to be truly sustainable, yet don't think about their infinite growth targets in terms of sustainability. The _actual_ changes required for this need to come from us - the lowly workers in the ranks - as much as they need to come from the CEOs.
 
 
 
