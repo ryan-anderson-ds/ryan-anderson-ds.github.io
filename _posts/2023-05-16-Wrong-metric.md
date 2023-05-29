@@ -218,9 +218,7 @@ When investing, invest in companies that bring long term positive impact. Yes, y
 
 ## Change your corporate mindset
 
-In your corporate life, there’s a simple fix for now. If you’re a data scientist or analyst, you’ve probably been taught that in interviews for big tech, you need to link every interview answer to the company’s bottom line: growth. That needs to change (maybe not in the interview process, though!)  
-
-But instead, **rather than focusing on growth, find the value your company brings to its users and the world, and the negative things it brings to the world, to measure and maximise those things.** It could be a very subtle change, and maybe even results in many of the same metrics like retention. You might drop often pointless metrics like engagement, when the engagement is shallow.
+In your corporate life, there’s a simple fix for now. Rather than focusing on growth, find the value your company brings to its users and the world, and the negative things it brings to the world, and strive to measure and maximise those things. It could be a very subtle change, and maybe even results in many of the same focuses like user retention.  Yet truly, if you do that just a little bit, not only will it improve your company’s long term prospects over the next decades, it will make you a far more driven, purposeful employee, as you cut through all the bullshit and evil, and focus on building a good product or service. This isn’t a death wish for your company - look at cases like Patagonia who have their entire value proposition as sustainability - by maximising the life and repairability of the clothing they sell you, and sourcing the most sustainable materials for it.
 
 Truly, if you do that just a little bit, not only will it improve your company’s long term prospects over the next decades, it will make you a far more driven, purposeful employee, as you cut through all the bullshit and evil, and focus on building a good product or service.
 
@@ -231,7 +229,7 @@ For example,
 
 We, as white collar workers worried about our futures in a fast-changing world, should really be focusing on the long term viability of the company as much as short term metrics. Yet, we tend to chase quarterly or more frequent metrics like short term engagement and anomalies over the really big picture. We work for companies that claim that they want to be truly sustainable, yet don't think about their infinite growth targets in terms of sustainability. The _actual_ changes required for this need to come from us - the lowly workers in the ranks - as much as they need to come from the CEOs.
 
-
+Personally, and in our professional life, let’s all give it a shot to do away with pointless growth, even if making the tiniest of changes - because it’s a terrible argument that something should not be done just because it’s hard to do.
 
 ## Appendix: Related reading
 
