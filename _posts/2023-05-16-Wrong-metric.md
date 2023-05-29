@@ -1,10 +1,10 @@
 ---
 layout: post
-title: The world is driven by the wrong metric
+title: It’s time to end the societal pursuit of growth
 type: insights
 ---
 
-![The world is driven by the wrong metric](../images/growth1.png)
+![It’s time to end the societal pursuit of growth](../images/growth1.png)
 
 
 _Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gdp_per_capita_1965.png)_
@@ -123,7 +123,7 @@ A big reason for this is that companies’ valuations in the modern tech world, 
 
 And when there are no new users, big tech looks to sink its greedy hands into other pies. Tons of examples, but I’ll take a simple one: [Apple is launching a savings account](https://edition.cnn.com/2023/04/18/investing/premarket-stocks-trading/index.html). Apple makes a great set of products. Why not stick to it? Because they’ve figured out that, since they have users’ attention on their phones all the time, and most users now invest on their phones, why not monopolise on financial markets too? Like Apple, every big tech company is trying to take over the world. 
 
-But why is this a problem - competition is good! Because, at some point, a company goes from a clearly defined goal (make a great phone) to a loose set of very diverse products, being controlled by a board of directors that is under pressure to bring in more profit than the year before. And once a company is that diverse, how can you truly know it’s doing good, environmentally conscious, and not being evil? After all, [Google dropped the “Don’t be evil” clause](https://gizmodo.com/google-removes-nearly-all-mentions-of-dont-be-evil-from-1826153393). 
+But why is this a problem - competition is good! Because, at some point, a company goes from a clearly defined goal (make a great phone) to a loose set of very diverse products, being controlled by a board of directors that is under pressure to bring in more profit than the year before. And once a company is that diverse, how can you truly know it’s being environmentally conscious, and not being evil? After all, [Google dropped the “Don’t be evil” clause](https://gizmodo.com/google-removes-nearly-all-mentions-of-dont-be-evil-from-1826153393). 
 
 So, bringing it back to the bigger picture: this is undeniably a bubble. We say that with certainty - because we have lost the connection between stock market value and actual value. Will the bubble burst or slowly shrink? When? We don’t know. But hopefully we’re starting to realise that not every multiplayer whiteboard needs a $17.5 Billion valuation (Sorry, Miro. You have a great product, but not _that_ great). 
 
