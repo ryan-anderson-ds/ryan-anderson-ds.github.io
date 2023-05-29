@@ -51,23 +51,19 @@ Here’s the crux: A very large part of this crisis (not all, of course) is not 
 
 _Smith and Mill: their hairstyles as outdated as their economic policies. Image sources [[Wikipedia](https://en.wikipedia.org/wiki/Adam_Smith#/media/File:Adam_Smith_The_Muir_portrait.jpg)], [[Wikipedia](https://en.wikipedia.org/wiki/John_Stuart_Mill#/media/File:John_Stuart_Mill_by_London_Stereoscopic_Company,_c1870.jpg)]_
 
-Humans evolved in an environment of scarcity. Even we were scarce. Food was rare. Physical safety was hard to come by, and health was short lived. This continued for most humans well into the 1900s, and still continues today in the developing world.
+Humans evolved in an environment of scarcity. We sparsely populated the planet. Food was rare. Physical safety was hard to come by, and health was short lived. This continued for most humans well into the 1900s, and still continues today in the developing world. Our survival was paramount, and technology was the solution.
 
-So back in the day, some smart people (Smith, Mill, Keynes, à la Economics 101) theorised that a free market, which incentivised companies to do as they wished, and people to invest in these companies, creating a positive feedback loop producing novel products and services, was the best way forward for humanity. The innovation produced by these competing, freely operating companies would lead to better health, longevity, and living for humans. 
+GDP and growth has humble and well-intentioned roots, à la Economics 101: Humans evolved in an environment of scarcity, which continued well into the 1900s, and still continues today in the developing world. Economists like Smith, Mill, and Keynes theorised that a free market, which incentivised companies to maximise profit, and people to invest in these companies, created a positive feedback loop producing novel products and services. The innovation produced by these companies would lead to better health, longevity, and happiness for humans, because people buy the things that make them healthy, safe and happy. And as they can buy more of these things, they’re healthier, safer, and happier. So, by recording the amount of things that we make and sell, voila! We have a metric for human progress. The more GDP, the better. Full-scale capitalism ensued, and pushing GDP led to prosperity and social progress in many countries.
 
-This is because, to a certain extent (or in economic theory, to an absolute), people buy the things that make them healthy, safe and happy. And as they can buy more of these things, they’re healthier, safer, and happier. So if we record the amount of things that we make and sell, which make people healthy, safe and happy, then voila! We have a **metric for human progress.** The more GDP per capita, the healthier, happier and safer our humans are.
+Side note, jumping ahead: Both Mill and Keynes alluded to the fact that this growth model would only be relevant for a while - until a model of steady state. Mill said that “the best state for human nature is that which, while no one is poor, no one desires to be richer, nor has any reason to fear being thrust back, by the efforts of others to push themselves forward” Keynes said that one day the “economic problem would be solved and we would prefer to devote our further energies to non-economic purposes”. In other words, we’ve taken things written down by people in completely different economic times, and still apply them today. But actually, they had already dreamt ahead to today and we’ve forgotten about that part.
 
-_Side note, jumping ahead: Both Mill and Keynes alluded to the fact that this growth model would only be relevant for a while - until a model of steady state. Mill said that “the best state for human nature is that which, while no one is poor, no one desires to be richer, nor has any reason to fear being thrust back, by the efforts of others to push themselves forward” Keynes said that one day the “economic problem would be solved and we would prefer to devote our further energies to non-economic purposes”. In other words, we’ve taken things written down by people in completely different economic times, and still apply them today. But actually, they had already dreamt ahead to today and we’ve forgotten._
-
-So for a long time, our fathers of modern economics were right! Tackling growth of Gross Domestic Product (GDP - the total goods and services output by a country or other geographic unit) led to prosperity and social progress, at least in the countries that did grow. 
-
-As time moved on, things evolved to full-on capitalism. In a nutshell, capitalism is simple: Businesses make profit by selling stuff to us. We, who also work for the businesses, invest our spare paychecks in our choice of businesses - loaning them money to set up further delivery of goods and services. What we have is a massive machine that feeds itself. And boy, it sure does. Capitalism is the best engine you could imagine for growth, which is exactly why until very recently, it was synonymous with a good society. The bulk of it is, and was a good idea. It’s essential that we can invest our savings - capital - in businesses, and get a long term profit out of it. Without the incentive for profit, why would we take the risk to invest? And without investment, how could a new business get set up, pay their first paychecks, and so on?
+So for a long time, our fathers of modern economics were right! Tackling growth of GDP led to prosperity and social progress, at least in the countries that did grow. 
 
 But capitalism - the enormous engine of growth that feeds itself - is pretty sticky. It has set in so hard - to our governments, our culture, our very egos - that we can’t get rid of it. Our economic stability depends on growth. Our individual futures - our retirement funds - rely on it. Our governments wouldn’t make it through the next election if they suggested a zero growth target to their GDP.
 
-Now, you definitely know where this is going. We’ve gone too far. We’ve overshot, overcapitalismed the world. We’ve managed to not just ignore the long term future for our own retirement funds, but to **deeply entrench and encourage the model that does this**. 
+Now, you know where this is going. We’ve gone too far. We’ve overshot, overcapitalismed the world. We’ve managed to not just ignore the long term future for our own retirement funds, but to **deeply entrench and encourage the model that does this**. 
 
-We have a **continually growing economic beast (which must be fed more growth) which is coupled to a finite ecological system. We’re not doing this purposefully, but we can’t stop.**
+We have a **continually growing economic beast (which must be fed more growth) which is coupled to a finite ecological system.**
 
 
 ## Problems with our current economic state
@@ -81,7 +77,7 @@ GDP is too selective. It takes all the short term positives, and forgets about t
 
 Secondly, remember the idea that drove capitalism - that we buy things which make us happy, healthy and safe, and this drives production, hence GDP? Well, this isn’t actually entirely correct.  We can now create GDP without even touching people’s happiness, by creating loans and investments for goods and services which never reach the end consumer, but instead are just Business to Business (B2B), fill a landfill, or feed some other black hole of goods and services that doesn’t improve society. 
 
-Moreover, our happiness from goods and services is not linear. Your first meal after not eating for a week is worth much much more to you than the 30th meal in a week. Yet GDP assigns them the same value. and past a point, Past a point, more consumption doesn’t make us happy at all. 
+Moreover, our happiness from goods and services is not linear. Your first meal after not eating for a week is worth much much more to you than the 30th meal in a week. Yet GDP assigns them the same value. and past a point, more consumption doesn’t make us happy at all. 
 
 In ye olde days, and in struggling countries to this day, more material commodities were clearly needed, as they provided for the basic physical or psychological necessities.
 
@@ -137,7 +133,7 @@ We’ve tried to reel in the bad behaviour by asking companies to do Corporate S
 Governments play with consumption, and encourage it. In recession, they stimulate demand. They want you to spend more. Consume more. They deregulate to make it easy for you to borrow money that banks create - and very obviously isn’t sustainable because it’s backed by limited production and raw material. As Tim Jackson succinctly puts it, “Allegiance to growth was the single most dominant feature of an economic and political system that led the world to the brink of economic disaster in 2008. The ultimate goal was to protect the pursuit of economic growth - ... when spending slows down, unemployment looms large. Firms find themselves out of business. People find themselves out of a job. And governments who fail to respond appropriately very soon find themselves out of office.” 
 
 
-### … and now - the most insane part - we want to encourage people to make more people in order to keep growth going
+### We want to encourage people to make more people in order to keep growth going
 
 This is where some have completely lost the plot, chasing an imaginary short term GDP number rather than long term survival of our species. Articles like this, from respectable publications, are written:
 
@@ -147,9 +143,9 @@ This is where some have completely lost the plot, chasing an imaginary short ter
 * [How serious is our declining population growth problem?](https://www.marketplace.org/2021/05/19/how-serious-is-our-declining-population-growth-problem/) (Indirectly via the World Economic Forum)
 * The New York Times [thinks that the shrinking Chinese population is a global-scale “problem”](https://www.google.com/url?q=https://www.nytimes.com/2023/04/19/world/asia/china-population-india.html&sa=D&source=docs&ust=1683015498392841&usg=AOvVaw39yTYuzarQigRwzZPjlgE3)
 
-Nothing makes me angrier than articles like these, which are essentially saying “we need to have more babies, or do less work, in order to keep the growth engine running so we can continue to destroy the earth.” It’s impossible to even begin to comprehend why we’d prioritise the issues in this way - but a large part of this is that taxes by the working class are required to support the growing older generation. Obviously this isn’t long-term feasible, or we’d be trending towards an infinitely large population or need people to work until they die. Rather, we need to learn to sustainably support the retired generation without the requirement of an ever-growing workforce.
-
 Hadn’t we collectively agreed that 8 billion humans are too many for the earth? And if you think that we do indeed need more humans for the economy, let’s hope you like agreeing with Elon Musk. Because he also thinks that [population collapse is a bigger risk to civilisation than global warming.](https://edition.cnn.com/2022/08/30/health/elon-musk-population-collapse-wellness/index.html)
+
+It’s impossible to even begin to comprehend why we’d prioritise the issues in this way - but a large part of this is that taxes by the working class are required to support the growing older generation. Obviously this isn’t long-term feasible, or we’d be trending towards an infinitely large population or need people to work until they die. Rather, we need to learn to sustainably support the retired generation without the requirement of an ever-growing workforce.
 
 ![A nice view](../images/growth5.png)
 
@@ -164,14 +160,12 @@ I’ll start by saying that I really can’t offer the best, most educated solut
 
 What society is currently trying, albeit lazily, is working with the same concept of growth, but decoupling it from damage to the environment. It’s a good step, and we’re getting better at that. However, the decoupling growth from the use of natural resources is not going so well. We have the concept of ‘sustainability,’ but it doesn’t solve things like consumerism, corporate greed or bad debt. It doesn’t solve our overuse of land, soils and rainforests. 
 
-A common traditional argument to the world bursting at the seams is that “we’ll get more efficient.” But how much more? Currently, we’d need two hundred times the raw materials to raise everyone to a developed-country level of prosperity in the income sense. So it’s a struggle to see what technological improvements are going to bring more than a two-hundredfold efficiency improvement. Decoupling isn’t going to work.
+A common traditional argument to the world bursting at the seams is that “we’ll get more efficient.” But how much more? Currently, we’d need two hundred times the raw materials to raise everyone to a developed-country level of prosperity at current standards of living. So it’s a struggle to see what technological improvements are going to bring more than a two-hundredfold efficiency improvement. Decoupling isn’t going to work.
 
 
-## The metric of choice
+## Instead, let’s replace GDP with something better
 
-Ideally, a completely different economic structure is needed for the world: We stop measuring growth via GDP. Instead, we measure societal growth, in improvement in people’s lives. 
-
-In other words, we don’t measure prosperity, GDP and growth, in monetary terms. We take a step back, to the original intention of the whole thing - **measuring what actually makes people prosperous, content and happy.** After all, GDP exists just to approximate and drive companies towards maximising people’s happiness in the first place, but it is clearly failing because a) GDP isn’t actually measuring prosperity any more, and b) the proceeds are being unequally distributed, away from those that GDP would actually benefit.
+A completely different economic structure is needed for the world: We stop measuring growth via GDP. We take a step back, to the original intention of the whole thing - measuring what actually makes people prosperous, content and happy. After all, GDP exists just to approximate and drive companies towards maximising people’s happiness in the first place, but it is clearly failing because a) GDP isn’t actually measuring prosperity any more, and b) the proceeds are being unequally distributed, away from those that GDP would actually benefit.
 
 So what’s the metric? **Growth of _actual_ prosperity - quality of our health, lives and relationships, and feeling of meaning and belonging.**
 
@@ -187,14 +181,10 @@ _GPI versus GDP - tells the whole story (Source: Ida Kubiszewski et al, “Beyon
 
 Such a metric would work for companies and their respective growth, too. We would see enterprises as services to maximise contribution human and sustainability needs, rather than to maximise their own profit. It’s a subtle difference. Currently, all companies already fulfil our needs in one way or another. Yet they’re rewarded not on it, but on growth of their share prices. So they _create_ needs, trick us into buying things, and perform all sorts of shenanigans not in public interest. Measuring their contribution to progress stops these shenanigans. Admittedly, though, this is much easier said than done. Greedy people, hence greedy companies, will always exist, gaming the system. And this system would need a lot of solid definitions on what the needs of humanity are. But again, this would be a step in the right direction.
 
-This doesn’t cover the problems which we need to solve with wealth redistribution (both nationally and internationally), purely because it’s a whole tangential topic to cover, and even less my area of expertise. However, it’s important to acknowledge that firstly, GDP has been shown to work quite well in very poor countries, because basic goods and services are still very much a primary need for individuals therein. Secondly, that GDP works very badly for rich countries. While average income has increased remarkably in the US, Japan, and UK, happiness has stagnated in the last few decades. This is why it’s not hard to see that wealth redistribution from rich to poor countries should have a very high net happiness gain in the world.
-
 
 ## :(
 
-Now time for more cynicism and sadness. When you read the above, you probably thought “Hah, as if we could actually do that.” 
-
-I feel the same. I don’t think this is going to happen (fast enough). Personally, we are limited by the [The Dragons of Inaction](https://www.researchgate.net/publication/254734365_The_Dragons_of_Inaction_Psychological_Barriers_That_Limit_Climate_Change_Mitigation_and_Adaptation), a set of factors preventing us from making change, fast. The primary dragon, a lack of momentum, is best described as having too much of a a [prisoner’s dilemma](https://en.wikipedia.org/wiki/Prisoner%27s_dilemma) between people and between countries. One rich person isn’t going to _permanently_ redistribute their wealth to the poor unless all do. One country isn’t going to take a short term hit to their economies by making (very necessary) outrageous changes to their environmental impact, when they are locked in competition with other countries.
+This all leads to a final bout of cynicism and sadness, which you no doubt shared while reading the above. Such a systematic overhaul is not going to happen, at least until environmental disaster forces it upon us. Personally, we are limited by the [The Dragons of Inaction](https://www.researchgate.net/publication/254734365_The_Dragons_of_Inaction_Psychological_Barriers_That_Limit_Climate_Change_Mitigation_and_Adaptation), a set of factors preventing us from making change, fast. The primary dragon, a lack of momentum, is best described as having too much of a a [prisoner’s dilemma](https://en.wikipedia.org/wiki/Prisoner%27s_dilemma) between people and between countries. One rich person isn’t going to _permanently_ redistribute their wealth to the poor unless all do. One country isn’t going to take a short term hit to their economies by making (very necessary) outrageous changes to their environmental impact, when they are locked in competition with other countries.
 
 
 1. It’s a massive undertaking to change the system **everything** runs on.
