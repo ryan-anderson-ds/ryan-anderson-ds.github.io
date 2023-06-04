@@ -9,6 +9,8 @@ type: insights
 
 _Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gdp_per_capita_1965.png)_
 
+_**This piece has been published in the [Mail and Guardian](https://mg.co.za/thoughtleader/opinion/2023-06-04-its-time-to-end-the-societal-pursuit-of-growth/)**_
+
 This is an article on economics. It’s highly political, cynical, ranty, and anti-capitalist. It also raises far more problems than solutions. So why read it, if not an economist? (Or why write it, as a data scientist?)
 
 This is probably the most relevant and important analytical topic we’ll ever touch in our avenue of work. We, as white-collar workers, especially data scientists, analysts, product managers and even senior leadership, are all about picking the right metrics to measure success of what we do at work. 
