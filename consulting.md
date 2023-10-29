@@ -4,6 +4,7 @@ title: Consulting Services
 permalink: /consulting/
 ---
 
+Specialising in:
 * I am a full-stack specialist product data scientist. In other words, I apply data science to improve a product, business model or business strategy - from the consulting phase, right through to building and monitoring success of the data solutions.
 * I am an ex-product manager, and during my Master of Business Administration (MBA), I was awarded the class trophy for business strategy.
 * My calling is to Finding _meaningful_ applications of data science, machine learning and intelligence augmentation (like GPT) to help us be better and more wholesome humans in a sustainable way.
