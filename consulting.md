@@ -12,10 +12,10 @@ Specialising in:
 
 ### Experience 
 * Senior data scientist at Shopify, advising on paths forward for the Admin portal's home pages product strategy. Building infrastructure, experiments, models and dashboards using Kafka, PySpark and DBT and GCP's data stack (Airflow, Bigquery, Looker Studio)
-* Data scientist at Booking.com, sole data scientist for the hotel side of Payments, covering over 7 product managers and 80 developers as they built out a new Payments platform using Hadoop, Oozie, PySpark and several visualisation tools
-* Product management of a data platform at Booking.com
-* Product management of a data science based tech startup
-* Studied Electrical and Computer Engineering and MBA
+* Ex-Data scientist at Booking.com, sole data scientist for the hotel side of Payments, covering over 7 product managers and 80 developers as they built out a new Payments platform using Hadoop, Oozie, PySpark and several visualisation tools
+* Ex-Product Manager of a data platform at Booking.com
+* Ex-Product Manager of a data science based tech startup
+* Studied Electrical and Computer Engineering and Master of Business Administration
 
 ### Contact
 [ryanandersonDS@gmail.com](mailto:ryanandersonDS@gmail.com)
