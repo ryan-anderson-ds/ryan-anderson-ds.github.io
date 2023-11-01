@@ -182,6 +182,7 @@ img {
 
 .site-info {
   float: left;
+  pos
 
   @include mobile {
     float: none;
@@ -211,6 +212,8 @@ img {
 }
 
 nav {
+  position:absolute;
+  bottom:5;
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: courier new;
