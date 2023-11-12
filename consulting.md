@@ -4,11 +4,8 @@ title: "Consulting Services"
 permalink: /consulting/
 ---
 
-<section class="content">
+## Consulting services
 
-<h1>Consulting services</h1>
-
-<p>
 Specialising in:
 * I am a full-stack specialist product data scientist. In other words, I apply data science to improve a product, business model or business strategy - from the consulting phase, right through to building and monitoring success of the data solutions.
 * I am an ex-product manager, and during my Master of Business Administration (MBA), I was awarded the class trophy for business strategy.
@@ -19,12 +16,10 @@ Specialising in:
 * Senior data scientist at Shopify, advising on paths forward for the Admin portal's home pages product strategy. Building infrastructure, experiments, models and dashboards using Kafka, PySpark and DBT and GCP's data stack (Airflow, Bigquery, Looker Studio)
 * Ex-Data scientist at Booking.com, sole data scientist for the hotel side of Payments, covering over 7 product managers and 80 developers as they built out a new Payments platform using Hadoop, Oozie, PySpark and several visualisation tools
 
-</p>
-</section>
-
 * Ex-Product Manager of a data platform at Booking.com
 * Ex-Product Manager of a data science based tech startup
 * Studied Electrical and Computer Engineering and Master of Business Administration
 
 ### Contact
 [ryanandersonDS@gmail.com](mailto:ryanandersonDS@gmail.com)
+
