@@ -47,6 +47,11 @@ a {
       color: black;
     }
   }
+  .subt {
+    text-transform: uppercase;
+    margin: 10px 0 20px 0;
+    font-size: 15px;
+  }
   .meta {
     a {
       margin-left: 0px;
@@ -66,7 +71,7 @@ a {
       padding: 3px 0;
       color: black;
       font-weight: bold;
-      font-size: 12px;
+      font-size: 14px;
       display: block;
       &:hover {
         color: #227ce8;
