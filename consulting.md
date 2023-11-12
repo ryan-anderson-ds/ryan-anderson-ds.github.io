@@ -1,10 +1,8 @@
 ---
-layout: layout
+layout: post
 title: "Consulting Services"
 permalink: /consulting/
 ---
-
-<section class="content">
 
 ## Consulting services
 
@@ -24,5 +22,3 @@ Specialising in:
 
 ### Contact
 [ryanandersonDS@gmail.com](mailto:ryanandersonDS@gmail.com)
-
-</section>
