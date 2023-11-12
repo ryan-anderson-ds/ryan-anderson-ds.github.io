@@ -54,14 +54,14 @@ a {
     font-size: 10px;
   }
   .meta {
+    position: absolute;
+    bottom: 0;
     a {
       margin-left: 0px;
       color: black;
       &:hover {
         color: #227ce8;
       }
-      position: absolute;
-      bottom: 0;
     }
     margin-left: 4px;
     .icon {
