@@ -95,7 +95,8 @@ a {
   margin-bottom: 50px;
   h1, h2, h3, h4 {
     color: #333;
-    font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif;
     font-weight: 400;
     a {
       color: #111;
@@ -103,16 +104,16 @@ a {
     }
   }
   h1 {
-    font-size: 36px;
+    font-size: 30px;
     margin: 18px 0 5px 0;
   }
   h2 {
-    font-size: 30px;
+    font-size: 26px;
     margin-bottom: 15px;
   }
   h3 {
     color: #777;
-    font-size: 25px;
+    font-size: 22px;
     padding-bottom: 5px;
     margin-bottom: 10px;
   }
