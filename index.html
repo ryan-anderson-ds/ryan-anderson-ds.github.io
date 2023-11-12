@@ -14,8 +14,9 @@ title: "Posts"
         <div class="entry">
           {{ post.excerpt }}
         </div>
-  
-        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+        
+        Written on {{ post.date | date: "%B %e, %Y" }} | <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+        
         <br><br>
       </article>
       {% endunless %}
