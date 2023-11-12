@@ -1,0 +1,41 @@
+---
+layout: post
+title: What I’ve learnt moving from a Product Manager to a Data Scientist role in big tech
+type: insights
+---
+
+Over a year ago, and after several years of study, I recently took the path less traveled. I stepped “down" from a Product Manager role to a Data Scientist role. I say “down,” because many people used that word when referring to my move. They wondered why I was leaving my career of “making decisions” and “management” to a “lesser” career of being an “individual contributor.” Some told me to my face that I was doing the wrong thing. That I'd be back.
+
+Everything they said was wrong. Life has been so much more rewarding. The decisions I am helping make - and *contributing* with others - it’s NOT an individual contributor role - are at such a more impactful level than that of a Product Manager. I am working higher up in the company, feeling more rewarded, less stressed, and having a more impactful career. Most importantly, every day is filled with flow. Of course, this will not be the same for everyone. Some people are built for management. It took me far too long to realise that I was not.
+
+So what have I learnt, coming from a career in Product Management to Data Science?
+
+Data Scientists (or similar roles) tend to fall short in a few areas:
+
+Business acumen and intuition
+-------
+Many Data Scientists and Analysts, despite needing to connect the business world to the data world, have a huge shortcoming in business acumen. This makes sense. They generally come straight from university, from a Masters or PhD, into a technical role, and then try to fit into their business domain, showing off their technical brains. But they have no experience managing large projects, or really been part of the non-technical business world. Their intuition about what makes the business world tick is just… missing. There’s not much that can be done here, except to strive, as a Data Scientist, to delve as deep into the business decision-making process as possible. Try not to be put aside and used as a tool when an analysis or model is needed. Try understand why your stakeholders are doing what they are doing, and what the users and business really need from you. Finally, try to lead business, rather than to follow - in other words, the insights, advice and projects should eventually come from you, unprompted. Because eventually, you are the business expert.
+
+Doing the wrong work
+-------
+As a result of poor business acumen, Data Scientists or Analysts often do overly complicated work... in the wrong direction. Never mind the cliche of using deep learning when only regression is needed. Why are you developing a beautiful model that solves a problem that doesn't even need a model? Or building a dashboard that is never used, because it doesn’t have useful metrics? Simply put, you can do better. Often this means instead of doing cool, rewarding work, you just write a simple query. Or instead of a fancy automated model, you just run a script once a month and send the results to your stakeholders. Your time is precious, so make sure it is solving the right business problem, and not over-solving it.
+
+Saying no
+-------
+New data scientists don't know how to say no, or to manage their time. This is probably the most important skill you learn as a Product Manager, because you run on very limited resources, whilst management ask the world from you. As a Data Scientist, it is no different - but you haven’t typically developed the skillset to (sympathetically) say no to work, and ask them to chat to your manager, or with you, about prioritising it for the future. By saying “no, but perhaps later,” you enable yourself in two ways. First, you get to concentrate on the task at hand and do a good job at that. Secondly, you open the door to the right prioritisation conversations with your management and stakeholders. You then get to do the most important work, first.
+
+Transparency about obstacles
+-------
+Furthermore, analytics roles are not transparent about the time they take to do their work or the difficulties they face. As a Product Manager, I really didn’t appreciate how much effort went into the simplest bit of data engineering or analysis. As a Data Scientist, sometimes the simplest thing can get in the way, and what seemed like a 20 minute query to write becomes three days. It’s not your fault. It’s important to communicate with management about all the obstacles in your way, so that they can help you out with them (escalation is great!), as well as get a bit more… reasonable - in their estimations.
+
+
+One main tip for for Product Managers (and managers of PMs)
+-----
+The advice fortunately goes both ways here. If I could go back in time, and be a better Product Manager, there is one enormous thing I'd try to do better.
+
+I'd prioritise the data my products produced as much as the new features we were putting out. It seems like data is always an afterthought, because management pushes hard for features at a particular date, or else. Months, or years later, the same management needs to make a decision, and oh no! The data they need for said decision is not available, or is often missing. Prioritising data as much as features may not pay off in the short term, but in the long term your company will benefit massively from having the data they need to make decisions, from before they knew they needed the data.
+
+
+TL;DR for your analytics career
+------
+These five points could be summarised as one - find a way to do as little work as possible, in the right direction, but exceptionally well. This is a win for you, and a win for the business. It might seem too easy, but that means you're doing it right!
