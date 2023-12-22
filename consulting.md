@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hire me!"
+title: "Consulting"
 permalink: /consulting/
 ---
 
