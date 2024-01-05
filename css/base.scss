@@ -10,14 +10,14 @@ body {
 }
 
 a {
-  color: #fff000;
+  color: #227ce8;
 }
 
 .sidebar {
   position: fixed;
   left: 15px;
   top: 15px;
-  width: 170px;
+  width: 160px;
   height: 100%;
   font-family: Helvetica, sans-serif;
   a {
@@ -37,12 +37,11 @@ a {
     margin: 10px 0 2px 0;
     #fname {
       padding-left: 1px;
-      font-size: 17px;
-      letter-spacing: 5px;
+      font-size: 15px;
       color: black;
     }
     #lname {
-      font-size: 17px;
+      font-size: 15px;
       font-weight: bold;
       letter-spacing: 1px;
       color: black;
@@ -93,7 +92,7 @@ a {
 
 .content {
   max-width: 750px;
-  margin-left: 180px;
+  margin-left: 170px;
   margin-right: 20px;
   margin-bottom: 50px;
   h1, h2, h3, h4 {
