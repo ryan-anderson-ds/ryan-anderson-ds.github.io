@@ -67,6 +67,20 @@ a {
       margin-right: 6px;
     }
   }
+
+  button {
+  position: absolute;
+  border: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  box-shadow: 0px 1px 4px 1px rgba(0 ,0, 0, .3);
+  left: 100%;
+  top: 2rem;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+  
   .sections {
     margin: 15px 0 0 0;
     a {
