@@ -6,7 +6,7 @@ type: insights
 
 _This piece has been published in [The Mail and Guardian](https://mg.co.za/thoughtleader/opinion/2023-06-04-its-time-to-end-the-societal-pursuit-of-growth/)_
 
-This is an article on economics. It’s highly political, cynical, ranty, and anti-capitalist. It also raises far more problems than solutions. So why read it, if not an economist? (Or why write it, as a data scientist?)
+This is an article on economics. It’s highly political, cynical, ranty, and not too fond of capitalism in its current form. It also raises far more problems than solutions. So why read it, if not an economist? (Or why write it, as a data scientist?)
 
 This is probably the most relevant and important analytical topic we’ll ever touch in our avenue of work. We, as white-collar workers, especially data scientists, analysts, product managers and even senior leadership, are all about picking the right metrics to measure success of what we do at work. 
 
@@ -14,8 +14,7 @@ Yet, the **entire world** is driven by a deeply entrenched metric that is leadin
 
 It’s growth, or at least how we measure growth in its current form: Gross Domestic Product (GDP). Your company’s bottom line. The relentless pursuit of more.
 
-_Side note:_ This rant borrows multiple ideas from the book _Prosperity Without Growth_ by Tim Jackson. Credit where credit is due. However, I don’t always agree with the ideas there. In fact, I am pro-growth. I'd just like to measure it differently. If  this article tickles your fancy, be sure to give the book a read, as it goes into these concepts far more in-depth, and with more references than here.
-
+_Side note:_ This rant borrows multiple ideas from the book _Prosperity Without Growth_ by Tim Jackson. Credit where credit is due. However, I don’t always agree with the ideas there. In fact, I am pro-growth. I'd just like to measure it differently. I'm also pro-capitalism, or at least fond of the progress it brings to humankind. If this article tickles your fancy, be sure to give the book a read, as it goes into these concepts far more in-depth, and with more references than here. And if you'd like to read a solid set of counterarguments, give _Superabundance_ by Gale L. Pooley and Marian L. Tupy a read. 
 
 ## Let’s first agree on the problem
 
