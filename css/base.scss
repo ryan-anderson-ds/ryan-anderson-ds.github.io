@@ -20,6 +20,7 @@ a {
   width: 160px;
   height: 100%;
   font-family: Helvetica, sans-serif;
+  transition: 1s ease;
   a {
     text-decoration: none;
   }
@@ -108,11 +109,13 @@ a {
   left: 15px;
   top: 15px;
   width: 40px;
+  transition: 1s ease;
 }
 
 .content {
   max-width: 750px;
   margin-left: 175px;
+  transition: 1s ease;
   margin-right: 20px;
   margin-bottom: 50px;
   h1, h2, h3, h4 {
@@ -268,4 +271,5 @@ a {
 .content_expanded
 {
   margin-left: 55px;
+  transition: 1s ease;
 }
