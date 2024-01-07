@@ -14,7 +14,7 @@ Yet, the **entire world** is driven by a deeply entrenched metric that is leadin
 
 It’s growth, or at least how we measure growth in its current form: Gross Domestic Product (GDP). Your company’s bottom line. The relentless pursuit of more.
 
-_Side note:_ This rant borrows multiple ideas from the book _Prosperity Without Growth_ by Tim Jackson. Credit where credit is due. However, I don’t always agree with the ideas there. In fact, I am pro-growth. I'd just like to measure it differently. I'm also pro-capitalism, or at least fond of the progress it brings to humankind. If this article tickles your fancy, be sure to give the book a read, as it goes into these concepts far more in-depth, and with more references than here. And if you'd like to read a solid set of counterarguments, give _Superabundance_ by Gale L. Pooley and Marian L. Tupy a read. 
+**Update to the article**: I'd like to add in a solid caveat here, as it's not stated outright in the article, and the title is rather clickbaity: _obviously_ Growth is a good thing. It's how we measure it that is bad. I'd be pro-growth, if growth was to measure progress of humankind, rather than number of doodads produced, which at the moment correlates very strongly with trash produced, carbon footprint and a lot of very bad things. Similarly, I am pro-capitalism, at least the parts of capitalism that result in rewarding people for awesome technology that makes our lives more fulfilling. What I'm against is how we measure growth, capitalism in its current form, and the complete lack of societal incentives to think truly long term, and set our metrics like GDP and market cap accordingly.
 
 ## Let’s first agree on the problem
 
@@ -67,9 +67,9 @@ We have a **continually growing economic beast (which must be fed more growth) w
 So what’s actually wrong with Growth? There’s no need to state some of the obvious - I’m leaving out pollution, climate change and overuse of raw materials and land - that would just be a sad list of things we’ve made too much of and things we’re running out of. However, all of the below problems are less obvious systematic issues linked to our relentless pursuit of growth. 
 
 
-### Growth - GDP - isn’t actually correct.
+### Growth - whether measured by market cap, or GDP - isn’t actually correct.
 
-GDP is too selective. It takes all the short term positives, and forgets about the very relevant long term negatives. Serge Latouche, a professor of economics, [shows that](https://www.academia.edu/37030423/_Farewell_to_Growth_Polity_2010_By_Serge_Latouche_Ebook_PDF_Degrowth) if you take growth in GDP, and subtract damages caused to the environment from that, you get zero or negative growth. For instance, in Indonesia, it found that the rate of growth between 1971 and 1984 would be reduced from 7.1 to 4% annually, and that was by taking only three variables into consideration: deforestation, reduction in oil and gas reserves, and soil erosion. To make an accounting analogy: It’s as if a company is recording all its profits, but not recording most of its debts. 
+GDP and market cap measurements are too selective. It takes all the short term positives, and forgets about the very relevant long term negatives. Serge Latouche, a professor of economics, [shows that](https://www.academia.edu/37030423/_Farewell_to_Growth_Polity_2010_By_Serge_Latouche_Ebook_PDF_Degrowth) if you take growth in GDP, and subtract damages caused to the environment from that, you get zero or negative growth. For instance, in Indonesia, it found that the rate of growth between 1971 and 1984 would be reduced from 7.1 to 4% annually, and that was by taking only three variables into consideration: deforestation, reduction in oil and gas reserves, and soil erosion. To make an accounting analogy: It’s as if a company is recording all its profits, but not recording most of its debts. 
 
 Secondly, remember the idea that drove capitalism - that we buy things which make us happy, healthy and safe, and this drives production, hence GDP? Well, this isn’t actually entirely correct.  We can now create GDP without even touching people’s happiness, by creating loans and investments for goods and services which never reach the end consumer, but instead are just Business to Business (B2B), fill a landfill, or feed some other black hole of goods and services that doesn’t improve society. 
 
@@ -229,6 +229,5 @@ Personally, and in our professional life, let’s all give it a shot to do away 
 
 ## Appendix: Related reading
 
-* [Prosperity Without Growth](https://timjackson.org.uk/ecological-economics/pwg/): Not the inspiration behind this article, but a large part of reading I did towards it. Goes very in-depth into multiple topics mentioned above
-* [The Dragons of Inaction](https://www.researchgate.net/publication/254734365_The_Dragons_of_Inaction_Psychological_Barriers_That_Limit_Climate_Change_Mitigation_and_Adaptation): The psychological barriers preventing us from climate change action
+This rant borrows multiple ideas from the book _Prosperity Without Growth_ by Tim Jackson. Credit where credit is due. However, I don’t always agree with the ideas there. If this article tickles your fancy, be sure to give the book a read, as it goes into these concepts far more in-depth, and with more references than here. And if you'd like to read a solid set of counterarguments, give _Superabundance_ by Gale L. Pooley and Marian L. Tupy a read. 
 
