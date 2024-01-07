@@ -6,6 +6,8 @@ type: insights
 
 _This piece has been published in [The Mail and Guardian](https://mg.co.za/thoughtleader/opinion/2023-06-04-its-time-to-end-the-societal-pursuit-of-growth/)_
 
+**Update to the article, and apologies for the clickbait title**: I'd like to add in a solid caveat here, as it's not stated outright in the article, and the title is rather clickbaity: _obviously_ growth is a good thing. It's how we measure it that is bad. I'd be pro-growth, if growth was to measure progress of humankind, rather than number of doodads produced, which at the moment correlates very strongly with trash produced, carbon footprint and a lot of very bad things. Similarly, I am pro-capitalism, at least the parts of capitalism that result in rewarding people for awesome technology that makes our lives more fulfilling. What I'm against is how we measure growth, capitalism in its current form, and the complete lack of societal incentives to think truly long term, and set our metrics like GDP and market cap accordingly.
+
 This is an article on economics. It’s highly political, cynical, ranty, and not too fond of capitalism in its current form. It also raises far more problems than solutions. So why read it, if not an economist? (Or why write it, as a data scientist?)
 
 This is probably the most relevant and important analytical topic we’ll ever touch in our avenue of work. We, as white-collar workers, especially data scientists, analysts, product managers and even senior leadership, are all about picking the right metrics to measure success of what we do at work. 
@@ -13,8 +15,6 @@ This is probably the most relevant and important analytical topic we’ll ever t
 Yet, the **entire world** is driven by a deeply entrenched metric that is leading us to our doom - no exaggeration. The metric is not sustainable, and it’s one of the main reasons why we can’t combat climate change, income inequality, dwindling resources, or many other things wrong with the world.
 
 It’s growth, or at least how we measure growth in its current form: Gross Domestic Product (GDP). Your company’s bottom line. The relentless pursuit of more.
-
-**Update to the article**: I'd like to add in a solid caveat here, as it's not stated outright in the article, and the title is rather clickbaity: _obviously_ growth is a good thing. It's how we measure it that is bad. I'd be pro-growth, if growth was to measure progress of humankind, rather than number of doodads produced, which at the moment correlates very strongly with trash produced, carbon footprint and a lot of very bad things. Similarly, I am pro-capitalism, at least the parts of capitalism that result in rewarding people for awesome technology that makes our lives more fulfilling. What I'm against is how we measure growth, capitalism in its current form, and the complete lack of societal incentives to think truly long term, and set our metrics like GDP and market cap accordingly.
 
 ## Let’s first agree on the problem
 
