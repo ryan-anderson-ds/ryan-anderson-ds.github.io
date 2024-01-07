@@ -34,7 +34,8 @@ a {
   .title {
     text-transform: uppercase;
     display:inline-block;
-    margin: 10px 0 2px 0;
+    margin-left: 20px;
+    margin-top: 20px;
     #fname {
       padding-left: 1px;
       font-size: 15px;
@@ -61,7 +62,8 @@ a {
   .meta {
     display:inline-block;
     position: absolute;
-    right: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
     a {
       margin-left: 0px;
       color: black;
