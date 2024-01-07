@@ -12,7 +12,7 @@ This is probably the most relevant and important analytical topic we’ll ever t
 
 Yet, the **entire world** is driven by a deeply entrenched metric that is leading us to our doom - no exaggeration. The metric is not sustainable, and it’s one of the main reasons why we can’t combat climate change, income inequality, dwindling resources, or many other things wrong with the world.
 
-It’s growth, or at least growth in its current form: Gross Domestic Product (GDP). Your company’s bottom line. The relentless pursuit of more.
+It’s growth, or at least how we measure growth in its current form: Gross Domestic Product (GDP). Your company’s bottom line. The relentless pursuit of more.
 
 _Side note:_ This rant borrows multiple ideas from the book _Prosperity Without Growth_ by Tim Jackson. Credit where credit is due. However, I don’t always agree with the ideas there. In fact, I am pro-growth. I'd just like to measure it differently. If  this article tickles your fancy, be sure to give the book a read, as it goes into these concepts far more in-depth, and with more references than here.
 
