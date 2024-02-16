@@ -1,4 +1,31 @@
+---
+layout: post
+title: Profit focus will always lead technology in a sub-optimal direction, and sometimes towards Enshittification
+type: insights
+---
 
+In my previous article, I encouraged pragmatism when building the technologies that power our future. While we are experiencing a golden age of technological advancement that has significantly improved the quality of life, this progress can come with irreversible damages and challenges due to the frailty of humans and ecosystems. Now, let's explore one of the reasons why technology doesn't lead us down the perfect, sunny path to utopia.
+
+We're going to zoom into one of the most popular areas of negative talk about tech these days: About how digital products have very suddenly been getting worse, and more expensive, as they scramble for profits. The process has been dubbed "[enshittification](https://www.ft.com/content/6fb1602d-a08b-4a8c-bac0-047b7d64aba5)," "bitrot," "platform decay" and many other names. 
+
+Regardless of the name, it's affecting so many of the platforms we use. Big tech is starting to squeeze its users, advertisers and other clients for profit. Digital products capable of doing good are being corrupted in search of profits.
+
+Let's take YouTube as an example. 
+
+YouTube is one of the classic examples of innovation in our lifetime. It was founded because there was no easy way to upload and share videos on the internet - and founded the good old way - in a garage, by a few guys. No denying the main reason for their founding was to probably get rich. But the point is, YouTube was real innovation. It pioneered online video, turning video into an asynchronous form of communication for the masses.
+
+Yet YouTube in its current state is far from optimal, having made a lot of changes purely for profit. To name but a few things:
+- **Degrading product quality for engagement**: Probably the most damning of all changes. YouTube removed the Thumbs Down count, so users can no longer see if a video is of bad quality before watching it. There's no positive way to put this - it makes us watch poor quality content more often. It's wasting millions of hours of humanity's time, in the name of engagement.
+- **Squeezing users for profit**: Ads were introduced in 2007, but it was in 2018 that YouTube premiered the "Two Ads" feature, with the second one being unskippable, Adblock blockers, and even (very irrelevant) surveys as ads. They did this under the guise of giving creators a boost in revenue - but if so, why are these ads also shown on videos of creators who upload their videos for free - i.e. not Partners? Now the second side of the coin - offering no ads for YouTube Premium. 
+- **Squeezing content creators**: YouTube is forcing content creators to play by algorithm rules, primarily incentivising quantity of content over quality of content - sticking to a schedule, releasing videos of minimum duration. As [one creator put it](https://youtu.be/tAfaXFIcuvc?t=437) , "Everything online is converging to a bland, grey middle point where everyone is trying to maximise \[metrics\]... which just leads everyone to the same end product"
+
+YouTube's profit seeking has led to suboptimal technology.
+
+We don't know what the "optimal" direction of YouTube over the years would have been if not chasing profits, but we could surmise that if it only needed to break even, we'd see fewer ads per video, definitely never two adverts in a row. We wouldn't see content creators be pushed to make more and longer content than they wanted, but we'd see creators incentivised for video quality above all else. And of course, we'd see a dislike button.
+
+(Note: Alphabet doesn't share profitabilty per product, so we don't know if YouTube is actually profitable. We can assume so, though it made [$29B revenue]( https://abc.xyz/assets/d4/4f/a48b94d548d0b2fdc029a95e8c63/2022-alphabet-annual-report.pdf) in 2022, 10% of all of Alphabet's revenue. It's also not fair to judge the profitability of a single product of Alphabet's, because they need to use some as cash cows for research and development in other departments) 
+
+A lot of things YouTube has done probably don't fall under the "enshittification" umbrella - some are quite reasonable, maybe with the exception of removing the Thumbs Down count. YouTube is an expensive business to run, employees a lot of people, and needs to pay content creators for their content. A lot of what YouTube has done could, to an optimist, just be the floundering of an industry leader trying to generate as much profit as possible without stepping over the line and losing too many users. And, being an industry pioneer, it could be excused for sometimes finding that line.
 
 ![Enshittification](20240213211604.png)
 *If a part of this image looks suspiciously like ice cream, that's because it is: Dall-E doesn't allow you to generate any content related to extrement*
