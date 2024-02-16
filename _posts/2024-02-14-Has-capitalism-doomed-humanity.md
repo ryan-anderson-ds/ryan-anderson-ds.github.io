@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Has capitalism and technology doomed humanity? Unpacking the positives and negatives of tech, innovation and our future
+title: Have capitalism and technology doomed humanity? Unpacking the positives and negatives of tech, innovation and our future
 type: insights
 ---
 
