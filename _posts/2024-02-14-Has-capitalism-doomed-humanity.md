@@ -35,7 +35,7 @@ There's no reason that human progress should follow a linear curve.
 
 The same level of criticism should go towards the other end of the spectrum: techno-pessimism: any anti-tech Luddite writings like [Blood in the Machine](https://www.goodreads.com/en/book/show/59801798) write about how we should fight back against technology, or we're doomed. They cherry pick arguments about jobs lost due to automation, whether through factories or AI. However, they ignore the main counterarguments - that unemployment rate has remained (while fluctuating) more or less the same since the early 1900s, and that our quality and length of life has increased.
 
-![../images/20240211120007.png]
+![Its not linear](../images/20240211120007.png)
 
 The point I want to make here is very simple - we should avoid polarising our arguments, because it's blatantly obvious that the answer lies somewhere on the spectrum between relentless positivity and doom-and-gloom. In an argument for unpolarised arguments, Tim Urban's [What's our Problem](https://www.goodreads.com/en/book/show/102146148) makes the point that (especially politically), society is trending much more polarised. We are, thanks in great part to technology and media, reinforcing biases and narrow worldviews rather than fostering collaborative, diverse environments through constructive arguments. This is not good news - because there is no better tool for progress than collective, diverse thought. But culture (such as American politics), technology (such as algorithms driving engagement in Facebook and Youtube) are killing this process.
 
