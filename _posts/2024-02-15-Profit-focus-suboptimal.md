@@ -27,7 +27,7 @@ We don't know what the "optimal" direction of YouTube over the years would have 
 
 A lot of things YouTube has done probably don't fall under the "enshittification" umbrella - some are quite reasonable, maybe with the exception of removing the Thumbs Down count. YouTube is an expensive business to run, employees a lot of people, and needs to pay content creators for their content. A lot of what YouTube has done could, to an optimist, just be the floundering of an industry leader trying to generate as much profit as possible without stepping over the line and losing too many users. And, being an industry pioneer, it could be excused for sometimes finding that line.
 
-![Enshittification](20240213211604.png)
+![Enshittification](../images/20240213211604.png)
 *If a part of this image looks suspiciously like ice cream, that's because it is: Dall-E doesn't allow you to generate any content related to extrement*
 
 We not only have lived through a historic golden age for humanity (relative to all of history), those of us who have been using the internet since the early 2000s probably also lived through the golden age of the internet. Massive investment flowed in to platforms, and you and I reaped the benefits. It's something of a combination of the now cliche "If you're not paying, *you* are the product", but also something else less talked about: We as users were a combination between debtors - using a service for free, only to pay in the future, and early ponzi scheme adopters - our network effects being used to bring more users and advertisers onto the platforms, and *they'd* pay for it as we had the option to jump ship.
@@ -48,7 +48,7 @@ The Enshittification process isn't inevitable, or even intentional - although it
 
 Bitrot occurs as near-perfect software, still maintained by large companies, feel obliged to change things. But sometimes there's not much to change for the better, and you end on making things worse, adding bloatware. Windows is such an example - what has actually changed for the good in the last 20 years? We've been through redesign and redesign, such as fancy settings screens lazily layered on top of the old control panel, but Windows XP is still the best operating system we've seen. 
 
-![Nostalgia](20240215191802.png)
+![Nostalgia](../images/20240215191802.png)
 
 ## Can we combat enshittification?
 
