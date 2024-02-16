@@ -43,7 +43,7 @@ We'll cover the topics of human fragility, golden ages, growth, degrowth, techno
 ## The articles
 
 Starting off philosophical and tech-wide:
-- [Has capitalism and technology doomed humanity? Unpacking the positives and negatives of tech, innovation and our future](/posts/Has-capitalism-doomed-humanity)
+- [Have capitalism and technology doomed humanity? Unpacking the positives and negatives of tech, innovation and our future](/posts/Has-capitalism-doomed-humanity)
 - [Profit focus will always lead technology in a sub-optimal direction, and sometimes towards Enshittification](/posts/Profit-focus-suboptimal)
 - [It’s time to end the societal pursuit of growth](/posts/Wrong-metric)
 
