@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Have capitalism and technology doomed humanity? Unpacking the positives and negatives of tech, innovation and our future
+title: Are capitalism and full-throttle technology bad for humanity? Unpacking the positives and negatives of tech, innovation and our future
 type: insights
 ---
 
@@ -9,8 +9,7 @@ Public opinion on big tech is predominantly doom and gloom today. We point at co
 These worries are more than just warranted, and humanity is certainly in for a very challenging future. But as my first full article on a series about *humanising* data science and technology, I'd like us to think a bit deeper about these topics. When it comes to thinking about the future in our hands, and how technology impacts it, I'd like to make four main points that we as tech workers should think about
 - We are living (or have lived) in a golden age
 - It's possible that the [pursuit of growth](https://ryanandersonds.com/posts/Wrong-metric), technology and for that matter industrialisation have done irreversible damage
-- When arguing around these things, we should avoid polarised arguments - the answer always lies somewhere along the spectrum
-- However, we can't halt technological progress because it scares us
+- When arguing around these things, we should avoid polarised arguments - the answer always lies somewhere along the spectrum. We can't halt technological progress because it scares us, nor can we blindly release everything we invent into the world without carefully considering the implications
 - All of this calls for pragmatic thinking - humans and nature are fragile, and technology can hurt us as much as it has gotten us to this golden age
 
 Yes, these points are more political and philosophical than technical, but I think they will serve as a solid base for thinking about the decisions we make as data scientists, engineers and managers. Because some of us are going to make it big, and be making equally big decisions. These decisions are going to matter. 
@@ -39,9 +38,9 @@ The same level of criticism should go towards the other end of the spectrum: tec
 
 The point I want to make here is very simple - we should avoid polarising our arguments, because it's blatantly obvious that the answer lies somewhere on the spectrum between relentless positivity and doom-and-gloom. In an argument for unpolarised arguments, Tim Urban's [What's our Problem](https://www.goodreads.com/en/book/show/102146148) makes the point that (especially politically), society is trending much more polarised. We are, thanks in great part to technology and media, reinforcing biases and narrow worldviews rather than fostering collaborative, diverse environments through constructive arguments. This is not good news - because there is no better tool for progress than collective, diverse thought. But culture (such as American politics), technology (such as algorithms driving engagement in Facebook and Youtube) are killing this process.
 
-So, revising the matter at hand: We're in a golden age. Technological progress has led us here. But, there are two big, polarised arguments, which I'll write in caveman to illustrate the maturity of each said argument:
-- Capitalism good. Technology great. Both full steam ahead. Technology save climate. Utopia come!
-- Capitalism destroy earth. Corporations evil. Technology steal all jobs. Climate change kill all humans!
+So, revising the matter at hand: We're in a golden age. Technological progress has led us here. We are also in for some bad times - climate change, another round of job losses due to AI. However, arguments about the future tend to polarise into two camps:
+- Capitalism is good, and has led to unprecedented prosperity. We should carry on, and accelerate technological change to solve the world's problems.
+- Capitalism, big corporations and many new technologies are bad for us in their relentless pursuit of profit above all else. Let's put a halt to things we don't understand, or we're all going to lose our jobs, and we'll do even more damage to our planet.
 
 The undeniable truth is that **absolutely nobody knows enough to make a convincing argument in either direction**. It just depends on too many unknowns, philosophies, uncomfortable taboos, subjectivity, or things we can't measure yet. Here are three simple examples illustrate this:
 - A common rhetoric is that since technology has answered almost all of humanity's plights thus far, it will also find a solution to climate change should we invest enough resources. For instance, nuclear fusion may soon solve our reliable energy source problems forever. But will this happen in 5 years, or in 100? The difference between those numbers mean countless lives.
@@ -58,15 +57,17 @@ The core principle behind the damage from these unknowns is **fragility**. While
 
 Historically, fragility has been massively overlooked in favour of profit. Big tech companies are now worth trillions, and taking over the world. They are so self-driven that they don't care about the future beyond beyond their next few years of profit. The window of their interests is far, far smaller than that of your children. Board members and other employees are abstracted from the damage these companies do - they have no blood on their hands. Chouinard, in [Let My People Go Surfing]() says "Limited liability corporations are institutions created explicitly to separate humans from the effects of their actions—making them, by definition, inhuman and inhumane." This ignorance, intentional or not, is almost entirely responsible for every worry we have about the world today.
 
-Yet, on the other end of the spectrum, the same ignorance of fragility has no doubt led to a lot of innovation and technical progress. If we worried about everything that could go wrong, we would go nowhere.
+Yet, on the other end of the spectrum, the same ignorance of fragility has no doubt led to a lot of innovation and technical progress. If we worried about everything that could go wrong, we would go nowhere. 
+
+Capitalism and its intentional acceleration of technological progress have led us to a golden age, but also done an unquantifiable amount of damage to the future through climate change. The average person has become less poor, some immensely rich, and some unlucky ones have already lost their careers to AI or layoffs in companies which could afford not to lay them off. Many people have the ability, thanks to technology, to live fulfilling lives as knowledge workers, rather than working in sweatshops, whilst others do work in sweatshops and lose their jobs. It's complicated, and will remain so.
 
 ## So what can we do?
 
-This article started off reminding us to be positive about the world and technology, since we are indeed in a golden age. It discussed not to polarise our arguments about this, since nobody knows enough to make a convincing argument in either direction. Finally, it urges us to think about technology in terms of the damage it can do to fragile systems. But what does this mean for us as tech workers?
+Remember, the future is still uncertain, and we are the ones shaping it. Let's not polarise our arguments about capitalism, technological acceleration, AI, or any places where we feel fear of the unknown. 
 
-Continually bring your curious mind back to **fragility**. See the consequences of your innovation, and the interaction between humans and technology is as important as the technology itself. Over the next few years, not only are we going to be slow to react to technology, we're also going to have to be proactive - for instance, some concepts like Universal Basic Income and Reeducation are already pivotal as careers are more rapidly replaced by automation.
+Continually bring your curious mind back to **fragility**. See the consequences of your innovation, and the interaction between humans and technology is as important as the technology itself. Over the next few years, thanks to rapidly accelerating gains in AI, in relative terms, we're going to be even slower than before in our reaction to new innovation. So in light of our fragility, we're also going to have to be proactive - for instance, some concepts like Universal Basic Income and Reeducation are already pivotal as careers are more rapidly replaced by automation.
 
-**Focus on factfulness** in our world of worries, fake news, misinformation and greed. Learn to think critically and separate worries versus facts versus can't-knows. When faced with uncertainty, remember: as a data scientist, your job is to find the facts, or at least the highest probabilities!
+**Focus on factfulness** in our world of worries, fake news, misinformation and greed. Learn to think critically and separate worries versus facts versus can't-knows. 
 
 Quite simply, since technology moves faster than almost anything can react, as the rank and file of tech organisations, its up to us **we need to pragmatically point technology in the right direction**. Every decision we make contributes towards the magnitude and direction of technological progress, and this impacts systems before they can react.
 
