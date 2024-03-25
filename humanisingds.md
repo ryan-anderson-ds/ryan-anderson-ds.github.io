@@ -45,6 +45,7 @@ We'll cover the topics of human fragility, golden ages, growth, degrowth, techno
 Starting off philosophical and tech-wide:
 - [Are capitalism and full-throttle technology bad for humanity? Unpacking the positives and negatives of tech, innovation and our future](/posts/Has-capitalism-doomed-humanity)
 - [Profit focus will always lead technology in a sub-optimal direction, and sometimes towards Enshittification](/posts/Profit-focus-suboptimal)
+- [Humans, nature and most systems are too fragile to keep up with technology's rapid progress](/posts/Fragility)
 - [It’s time to end the societal pursuit of growth](/posts/Wrong-metric)
 
 
