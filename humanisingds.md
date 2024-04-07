@@ -47,4 +47,14 @@ Starting off philosophical and tech-wide:
 - [Profit focus will always lead technology in a sub-optimal direction, and sometimes towards Enshittification](/posts/Profit-focus-suboptimal)
 - [Humans, nature and most systems are too fragile to keep up with technology's rapid progress](/posts/Fragility)
 - [It’s time to end the societal pursuit of growth](/posts/Wrong-metric)
-- Still to come: Zooming in to the data science craft, and how we can help our companies build better, more human, more sustainable, products
+
+
+Getting into the nitty-gritty, data science and management world:
+- [Growth hacking and engagement chasing is no longer a viable product strategy](/posts/Growth-hacking)
+- Still to come:
+  - Time windows of metrics and company performance matters more than we care to admit
+  - Bias in data
+  - More on humanising metrics
+  - The big one: Humanising Artificial Intelligence: Ensuring it does more good than harm
+  - Do we need to store all data?
+  - Data science for direct good
