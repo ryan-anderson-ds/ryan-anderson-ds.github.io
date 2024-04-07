@@ -47,7 +47,4 @@ Starting off philosophical and tech-wide:
 - [Profit focus will always lead technology in a sub-optimal direction, and sometimes towards Enshittification](/posts/Profit-focus-suboptimal)
 - [Humans, nature and most systems are too fragile to keep up with technology's rapid progress](/posts/Fragility)
 - [It’s time to end the societal pursuit of growth](/posts/Wrong-metric)
-
-
-Still to come
-- Over many articles, zooming in to the data science craft, and how we can Humanise it
+- Still to come: Zooming in to the data science craft, and how we can help our companies build better, more human, more sustainable, products
