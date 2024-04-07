@@ -50,7 +50,7 @@ Starting off philosophical and tech-wide:
 
 
 Getting into the nitty-gritty, data science and management world:
-- [Growth hacking and engagement chasing is no longer a viable product strategy](/posts/Growth-hacking)
+- [Growth hacking and chasing engagement are no longer viable product strategies](/posts/Growth-hacking)
 - Still to come:
   - Time windows of metrics and company performance matters more than we care to admit
   - Bias in data
