@@ -24,7 +24,9 @@ I am not trying to shame us all into switching jobs, or careers. Rather, the poi
 
 This isn't a course (yet...). It doesn't always follow a perfect logical order. But I'd like to think that it's a core set of thoughts and examples that we should be thinking about to be better data scientists, developers, managers, or just people who use technology. Most of all, I'd like to get people thinking. People agreeing. Hell, I'd love to get people disagreeing - because I believe we can do a lot better if we have arguments about the things that matter. 
 
-Change and improvement has to come from the ranks of lower level workers in tech - the data scientists, mid level managers and developers like us - as much as it needs to come from the CEOs, the boards, the thought leaders. These articles are aimed at all of us. However, they're best tailored for data scientists - because data science is now a core part of every tech company, and soon everyone’s life. In a world with so much fake news, with so many questions, with so much worry, good data science practice is paramount.
+This is also not a technical series. You can find literally hundreds of amazing courses online on how to build good models, how to design great metrics and datasets, or even how to ace data science interviews. This focuses on something I see missing from most courses and writing in the industry - the philosophy and _care_ about the impact behind data science as a whole.
+
+Change and improvement in this field has to come from the ranks of lower level workers in tech - the data scientists, mid level managers and developers like us - as much as it needs to come from the CEOs, the boards, the thought leaders. These articles are aimed at all of us. However, they're best tailored for data scientists - because data science is now a core part of every tech company, and soon everyone’s life. In a world with so much fake news, with so many questions, with so much worry, good data science practice is paramount.
 
 ## Humanising?
 
