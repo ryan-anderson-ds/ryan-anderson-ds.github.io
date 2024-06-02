@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Humans, nature and most systems are too fragile to keep up with technology's rapid progress
+title: Humans, nature and most systems are too fragile to keep up with technology's rapid progress - and this is something we should always keep in mind when building new things
 type: insights
 ---
 
