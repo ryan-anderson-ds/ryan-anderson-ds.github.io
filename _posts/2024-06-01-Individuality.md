@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data science (done wrong) in big tech can eroding humanity's individuality
+title: Data science (done wrong) in big tech can erode humanity's individuality
 type: insights
 ---
 
