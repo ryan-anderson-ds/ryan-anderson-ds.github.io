@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Growth hacking and chasing engagement are no longer viable product strategies
+title: Growth hacking and chasing engagement are no longer viable product data science strategies
 type: insights
 ---
 
