@@ -25,7 +25,7 @@ I scraped 30 days of posts and comments from /r/canada, and used the OpenAI GPT4
 
 The results are quite telling.
 
-![reddit propaganda](images/redditpropaganda.png "/r/canada propaganda")
+![reddit propaganda](https://ryanandersonds.com/images/redditpropaganda.png "/r/canada propaganda")
 
 Firstly, given that we allow posts to be classified as "neutral," it's surprising how political the subreddit is. On a website famously for nerds and cat pictures, one would expect more pictures, videos, memes or questions. As [CBC put it](https://www.cbc.ca/listen/live-radio/1-14-day-6/clip/16079694-behind-anger-reddit-canada-site), it's strange how the majority of posts are news links, and not user generated content. In fact, /r/canada is the only country subreddit without any user generated content in the top 10. 
 
