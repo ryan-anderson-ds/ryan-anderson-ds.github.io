@@ -42,7 +42,7 @@ This prompted me to look at the ratio of upvotes to downvotes based on post type
 
 So, to summarise, we're seeing
 - ~60% of the content on /r/canada is to news articles, more than any other country
-- The majorty of this is conservative content, particularly in the form of doom-and-gloom articles. When writing this, I realised it may have been a more fair idea to focus on classifying sentiment (doom-and-gloom versus not) rather than political leaning, to keep it more fair. But as you can tell, I am rather liberal, and my bias definitely found its way in to the analysis.
+- The majorty of this is conservative content, particularly in the form of doom-and-gloom articles. (Segue: When writing this, I realised it may have been a more fair idea to focus on classifying sentiment (doom-and-gloom versus not) rather than political leaning, to keep it more fair. But as you can tell, I am rather liberal, and my bias definitely found its way in to the analysis)
 - Even when content is left leaning, conservative comments spam the articles
 - Conservative content is getting heavily upvoted
 
