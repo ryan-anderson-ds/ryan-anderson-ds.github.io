@@ -6,7 +6,7 @@ type: insights
 
 Reddit, the social media platform, has over 500 million accounts - the majority being in the 18-29 year old demographic. It's the 7th most popular website in Canada. It's a big deal, particularly in the USA and Canada - a one stop shop filled with news, memes, public opinions and even the power to [influence the stock market](https://www.vox.com/the-goods/22249458/gamestop-stock-wallstreetbets-reddit-citron). But something dark is up in its Canadian corner. 
 
-Loading the home page from Canada, you're presented with the homepage [/r/canada](https://www.reddit.com/r/canada/). After reading a few posts there, it's clear something's up. It's filled with angry, angry Canadians. Doom-and-gloom news articles. You would think Canada is the worst place in the world to live, and that our politicians can't get a single thing right.
+Loading the home page from Canada, you're presented with the homepage [/r/canada](https://www.reddit.com/r/canada/). After reading a few posts there, it's clear something's up. It's filled with angry, angry "Canadians". Doom-and-gloom news articles. You would think Canada is the worst place in the world to live, and that our politicians can't get a single thing right.
 
 This is a big deal, because reddit can provide a strong pulse of the public opinion of a town, country, or event. Read a post and you know how everyone's feeling on it - and as social beings, this changes our opinion (or gives us one).
 
@@ -21,7 +21,7 @@ Importantly, ALL of the top 20 posts from the last month are political. And this
 
 So I decided to have a look for myself.
 
-I scraped 30 days worth of posts and comments - over 9800 data points - from /r/canada, and used the OpenAI GPT4o API to classify each of the posts and their comments as liberal, conservative or neutral/non-political (technically it was labeled left-wing or right-wing, but I prefer the former terms). Rather than classify each of the comments individually, I classified posts as a whole, but considered their comments towards the net result, at a lower weight than the post title. For instance, a conservative post with 80% liberal or neutral comments would probably be labeled neutral or liberal. This would take into account the comments, the upvotes, and get an altogether strong pulse for each post.
+I scraped 30 days worth of posts and comments - over 9800 data points - from /r/canada, and used the OpenAI GPT4o API to classify each of the posts and their comments as liberal, conservative or neutral/non-political (technically it was labeled left-wing or right-wing, but I prefer the former terms - see P.S. for more thoughts here). Rather than classify each of the comments individually, I classified posts as a whole, but considered their comments towards the net result, at a lower weight than the post title. For instance, a conservative post with 80% liberal or neutral comments would probably be labeled neutral or liberal. This would take into account the comments, the upvotes, and get an altogether strong pulse for each post.
 
 The results are quite telling.
 
@@ -42,10 +42,12 @@ This prompted me to look at the ratio of upvotes to downvotes based on post type
 
 So, to summarise, we're seeing
 - ~60% of the content on /r/canada is to news articles, more than any other country
-- The majorty of this is conservative content, particularly in the form of doom-and-gloom articles. (Segue: When writing this, I realised it may have been a more fair idea to focus on classifying sentiment (doom-and-gloom versus not) rather than political leaning, to keep it more fair. But as you can tell, I am rather liberal, and my bias definitely found its way in to the analysis)
+- The majority of this is conservative content, particularly in the form of doom-and-gloom articles (see P.S.)
 - Even when content is left leaning, conservative comments spam the articles
 - Conservative content is getting heavily upvoted
 
 Given the [recent evidence](https://www.cbc.ca/news/investigates/russian-influence-election-tenet-media-chen-southern-1.7314976) of Russian propaganda activity in Canada, we can probably assume the worst here. And we should care about it - because this is _the default subreddit_ for Canada. Anyone coming to Canada and viewing reddit sees this content by default. From an outsider perspective, it looks like a very angry, troubled place (ideal for accepting a new political agenda!).
 
 There are plenty of opportunities for follow ups here. I barely scratched the surface. Looking at sentiment of comments from particular users, timing patterns, and at the actual content of articles itself would all provide great sources of data to delve deeper.
+
+P.S.: When writing this, I realised it may have been a more fair idea to focus on classifying sentiment (doom-and-gloom versus not) rather than political leaning, to keep it more fair. But as you can tell, I am rather liberal, and my bias definitely found its way in to the analysis
