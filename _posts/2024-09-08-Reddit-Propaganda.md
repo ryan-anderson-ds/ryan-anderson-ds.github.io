@@ -21,7 +21,7 @@ Importantly, ALL of the top 20 posts from the last month are political. And this
 
 So I decided to have a look for myself.
 
-I scraped 30 days of posts and comments from /r/canada, and used the OpenAI GPT4o API to classify each of the posts and their comments as liberal, conservative or neutral/non-political (technically it was labeled left-wing or right-wing, but I prefer the former terms). Rather than classify each of the comments individually, I classified posts as a whole, but considered their comments towards the net result, at a lower weight than the post title. For instance, a conservative post with 80% liberal or neutral comments would probably be labeled neutral or liberal. This would take into account the comments, the upvotes, and get an altogether strong pulse for each post.
+I scraped 30 days worth of posts and comments - over 9800 data points - from /r/canada, and used the OpenAI GPT4o API to classify each of the posts and their comments as liberal, conservative or neutral/non-political (technically it was labeled left-wing or right-wing, but I prefer the former terms). Rather than classify each of the comments individually, I classified posts as a whole, but considered their comments towards the net result, at a lower weight than the post title. For instance, a conservative post with 80% liberal or neutral comments would probably be labeled neutral or liberal. This would take into account the comments, the upvotes, and get an altogether strong pulse for each post.
 
 The results are quite telling.
 
@@ -42,8 +42,10 @@ This prompted me to look at the ratio of upvotes to downvotes based on post type
 
 So, to summarise, we're seeing
 - ~60% of the content on /r/canada is to news articles, more than any other country
-- The majorty of this is doom-and-gloom / conservative content
+- The majorty of this is conservative content, particularly in the form of doom-and-gloom articles. When writing this, I realised it may have been a more fair idea to focus on classifying sentiment (doom-and-gloom versus not) rather than political leaning, to keep it more fair. But as you can tell, I am rather liberal, and my bias definitely found its way in to the analysis.
 - Even when content is left leaning, conservative comments spam the articles
 - Conservative content is getting heavily upvoted
 
-Given the [recent evidence](https://www.cbc.ca/news/investigates/russian-influence-election-tenet-media-chen-southern-1.7314976) of Russian propaganda activity in Canada, we can probably assume the worst here. And we should care about it - because this is _the default subreddit_ for Canada. Anyone coming to Canada and viewing reddit sees this content by default. From an outsider perspective, it looks like a very angry, very troubled place (so vote for your local Trump-equivalent!)
+Given the [recent evidence](https://www.cbc.ca/news/investigates/russian-influence-election-tenet-media-chen-southern-1.7314976) of Russian propaganda activity in Canada, we can probably assume the worst here. And we should care about it - because this is _the default subreddit_ for Canada. Anyone coming to Canada and viewing reddit sees this content by default. From an outsider perspective, it looks like a very angry, troubled place (ideal for accepting a new political agenda!).
+
+There are plenty of opportunities for follow ups here. I barely scratched the surface. Looking at sentiment of comments from particular users, timing patterns, and at the actual content of articles itself would all provide great sources of data to delve deeper.
