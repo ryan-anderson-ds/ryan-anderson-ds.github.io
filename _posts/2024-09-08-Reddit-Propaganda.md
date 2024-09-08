@@ -46,4 +46,4 @@ So, to summarise, we're seeing
 - Even when content is left leaning, conservative comments spam the articles
 - Conservative content is getting heavily upvoted
 
-Given the [recent evidence](https://www.cbc.ca/news/investigates/russian-influence-election-tenet-media-chen-southern-1.7314976) of Russian propaganda activity in Canada, we can probably assume the worst here. And we should care about it - because this is _the default subreddit_ for Canada. Anyone coming to Canada and viewing reddit sees this content by default. From an outsider perspective, it looks like a very angry, very troubled place (so vote for your local Trump-equivalent!).
+Given the [recent evidence](https://www.cbc.ca/news/investigates/russian-influence-election-tenet-media-chen-southern-1.7314976) of Russian propaganda activity in Canada, we can probably assume the worst here. And we should care about it - because this is _the default subreddit_ for Canada. Anyone coming to Canada and viewing reddit sees this content by default. From an outsider perspective, it looks like a very angry, very troubled place (so vote for your local Trump-equivalent!)
