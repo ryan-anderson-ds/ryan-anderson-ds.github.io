@@ -13,9 +13,9 @@ This is a big deal, because reddit can provide a strong pulse of the public opin
 Importantly, the way reddit works allows for default content from particular subreddits (mini content feeds) to display to all people logging in from a particular area. The default Canadian subreddit, /r/canada, is an example of this. Anyone viewing reddit from Canada receives this content by default, unless they log in and opt out from the subreddit.
 
 This default content looks a bit... political. Right now, the top posts from the last month include:
-- "Government officers told to skip fraud prevention steps when vetting temporary foreign worker applications, Star investigation finds"
-- "We’re getting lousy value for the taxes we pay in Canada"
-- Our car was stolen out of our driveway in Burlington. We knew where it was. Nothing was done. This is how institutions crumble
+- "We’re getting lousy value for the taxes we pay in Canada" - Really? [Canada has the 8th best infrastructure in the world](https://www.usnews.com/news/best-countries/rankings/well-developed-infrastructure)
+- "Our car was stolen out of our driveway in Burlington. We knew where it was. Nothing was done. This is how institutions crumble" - Straw man fallacy, anyone?
+- "Government officers told to skip fraud prevention steps when vetting temporary foreign worker applications, Star investigation finds" - Fair enough, that does sound like quite the damning investigation.
 
 Importantly, ALL of the top 20 posts from the last month are political. And this isn't a surprise. We're already suspicious. [CBC had a look and found shenanigans](https://www.cbc.ca/listen/live-radio/1-14-day-6/clip/16079694-behind-anger-reddit-canada-site). Later, CBC published [another article](https://www.cbc.ca/news/investigates/russian-influence-election-tenet-media-chen-southern-1.7314976) finding influencers collaborating with Russian propaganda scheme.
 
