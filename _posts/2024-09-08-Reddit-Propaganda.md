@@ -50,4 +50,4 @@ Given the [recent evidence](https://www.cbc.ca/news/investigates/russian-influen
 
 There are plenty of opportunities for follow ups here. I barely scratched the surface. Looking at sentiment of comments from particular users, timing patterns, and at the actual content of articles itself would all provide great sources of data to delve deeper.
 
-P.S.: When writing this, I realised it may have been a more fair idea to focus on classifying sentiment (doom-and-gloom versus not) rather than political leaning, to keep it more fair. But as you can tell, I am rather liberal, and my bias definitely found its way in to the analysis
+P.S.: When writing this, I realised it may have been a more fair idea to focus on classifying sentiment (doom-and-gloom versus not) rather than political leaning, to keep it more fair. But as you can tell, I am rather liberal, and my bias definitely found its way in to the analysis.
