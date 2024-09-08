@@ -21,7 +21,7 @@ Importantly, ALL of the top 20 posts from the last month are political. And this
 
 So I decided to have a look for myself.
 
-I scraped 30 days of posts and comments from /r/canada, and used the OpenAI GPT4o API to classify each of the posts and their comments as liberal, conservative or neutral/non-political. Rather than classify each of the comments individually, I classified posts as a whole, but considered their comments towards the net result, at a lower weight than the post title. For instance, a conservative post with 80% liberal or neutral comments would probably be labeled neutral or liberal. This would take into account the comments, the upvotes, and get an altogether strong pulse for each post.
+I scraped 30 days of posts and comments from /r/canada, and used the OpenAI GPT4o API to classify each of the posts and their comments as liberal, conservative or neutral/non-political (technically it was labeled left-wing or right-wing, but I prefer the former terms). Rather than classify each of the comments individually, I classified posts as a whole, but considered their comments towards the net result, at a lower weight than the post title. For instance, a conservative post with 80% liberal or neutral comments would probably be labeled neutral or liberal. This would take into account the comments, the upvotes, and get an altogether strong pulse for each post.
 
 The results are quite telling.
 
