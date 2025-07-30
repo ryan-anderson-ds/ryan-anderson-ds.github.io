@@ -1,0 +1,164 @@
+---
+layout: post
+title: A broad exploration of why AI is a (useful) bubble
+type: insights
+---
+
+We live in a growth-greedy corporate world. When a new technology appears, the only thing we know how to do is host a multi-company race to implement the technology for corporate gains and throw investor money at it. CEOs are incentivised to sell an idealised future of what may be to get more of that sweet investor money. During this, their employees hurriedly scramble to look for fits for the new technology behind opaque curtains. We find a hammer first, and then look for the nails, and make investors pay for more hammers. **This isn't necessarily a bad thing** - capitalism incentivises innovation, which often makes the world a better place. But this particular time, we've gone too far. We've propped up investor and industry confidence in this hammer.
+
+It's always risky writing a prediction article, but I finally feel confident to do so. This is the field I work in. Big tech is my home, where I've lived many lives as a developer, a product manager, the CTO of a startup and am now a data scientist specialising in measuring the effectiveness of AI tools. Hell, I'm a big fan of AI. 
+
+And my message is this: we are in a bubble.
+
+Why does it matter, and why did I write this? Because I care about people losing their jobs because of Altman & co giving dubious promises about the future. I care that people are investing a lot of their hard earned money in AI - based on what charismatic people who have a lot to gain from these investments tell them. I feel strongly about techno-optimists using "AI will save the world" as an excuse to squeeze a bit more growth and funding out of us... when the $560 billion being invested in 2025 towards just a few big tech companies' AI could be used for more direct good in this world. If this article saves just one person's investments, helps them make a more grounded career choice, or inspires them the tiniest bit to see AI from a balanced viewpoint, then I've done a little bit of good with my time.
+
+## Defining AI in this context as generative AI
+
+When talking about the AI bubble, I am referring to *generative* AI / genAI. In most implementations that means Large Language Models (LLMs). The term AI is a broad umbrella and contains lots of useful technology like machine learning for rapid cancer detection in images, and generative AI is just a small branch of it. Generative AI is the brand that was made famous by ChatGPT: With a prompt, receive text/image/video back. AI "Agents" fall under this umbrella too - because they are just LLMs with API connections to other services.
+
+A central assumption I'm going to make throughout this is that since the examples used are big tech (e.g. Microsoft) we're talking primarily about AI being used by knowledge workers in industry - where AI is a *satisficing* tool - capable of doing good enough work in some situations, but never creative, outstanding work we are capable of if we put in full effort on a task or assign it to someone good at doing that type of work.
+
+A central understanding that I want you to make is that in its current form, generative AI in this corporate environments is *mostly* text-flavoured. It's essentially a very, very fancy next-letter guessing algorithm, given a very large amount of input context. The other parts of its functionality - fetching relevant data from databases based on vector searches - is nothing new, and existed way before GPT.
+
+## It's not all useless - AI is very obviously here to stay
+
+I'm pro AI. It would be ridiculous not to be. It's useful, and it's here to stay.
+
+Even in its current state, AI is clearly useful - especially as an agent or assistant. Voice chatting to your phone to give it research to do. Turning a hastily written bullet list of items into a presentation. Writing tests for your code. Distilling multiple google search results into a summary. Skipping a mostly-irrelevant meeting and getting a summary instead (huge fan). These are all hallmarks of a great assistant that takes care of the grunt work for you. Hell, I even used it to check the grammar and logical flow of this writeup.
+
+Realistically, AI is saving myself and my colleagues 5-25% of time on our days through a variety of tools (tools which are often the full time jobs of other colleagues to maintain). That's a pretty massive productivity boost - and companies have preempted this with layoffs and upped expectations. We're now expected to do at least that much more work with our days. 
+
+So if AI is clearly useful, and layoffs have balanced out our productivity increase, what evidence is there that we are in a bubble? 
+
+## Let's do some math - on employee productivity
+
+In my office, AI makes us roughly 5-25% more productive, depending on the type of task. This is in line with other estimates, which seem to converge around 10-15% ([1](https://www.adeccogroup.com/our-group/media/press-releases/ai-saves-workers-an-average-of-one-hour-each-day), [2](https://www.thomsonreuters.com/en/press-releases/2024/july/ai-set-to-save-professionals-12-hours-per-week-by-2029), [3](https://www.microsoft.com/en-us/worklab/work-trend-index/ai-at-work-is-here-now-comes-the-hard-part))
+
+Take Microsoft as an example, who are cutting 15,000 employees this year - to simplify things let's say that's entirely due to AI, and we ignore other layoffs they've had or new hires. Out of 230,000 employees, that's 6.5% of the workforce, which makes sense if we expect the average employee to be 10% more productive.
+
+It's hard to find numbers on the cost of AI tools used by employees, but sources (including [this one](https://www.firstround.com/ai/shopify)) suggest we're looking at about $1000 per month for 10% increase in productivity for a software developer. That's a very fair cost, since most engineers cost more than that. Also because foundational AI companies are running at a loss at this price.
+
+So what we're seeing is a shift in expectations. Some productivity is shifting from humans to AI - much in the same way that computers, the internet, excel or stackoverflow have enabled in the past. We replace the lowest rung of work with automation. We need fewer workers to do the same amount of work. That's clear value! So the stock market should go up.
+
+But how much should the stock market go up? To produce the same amount of output by laying off employees and relying on these 10% more productive AI-augmented employees, we're looking at around a **5% decrease in the cost of employee productivity** given that the reduced labour cost is offset by the cost of using AI models.
+
+The thing is, companies like Microsoft are only spending 3%-15% (depending on your source) of revenue on employee-related costs. So we're looking at a **0.15% to 0.75% increase in revenue.** 
+
+ But the stock market has gone up more - in 2023, for instance, companies that mentioned AI saw an average stock price increase of 4.6%, while those who did not only saw a 2.4% increase ([Wallstreetzen](https://www.wallstreetzen.com/blog/ai-mention-moves-stock-prices-2023/)). That's a lot of increase for a small revenue increase! So either they're expecting returns beyond productivity - they're expecting to build better products - or they're overvalued. And given that AI is currently a *satisficing* tool that needs to be babysat for advanced use cases, it's looking like the latter. 
+
+Even these estimates are overly generous!
+- This isn't counting the fact that surely not *every* company will benefit fully from AI - so long as they're all producing products we consume as we did before, it's not quite a zero-sum game, but it's close to one. If every online todo list now has an AI tool, none of them have a competitive advantage any more. So will any of them see profits from AI beyond their productivity increases?  On average, no.
+- This doesn't even touch longer term topics of the impact of AI on technical debt and employee skills / over-reliance on AI. I'll deal with that later.
+- Even more importantly, this ignores the fact that generative AI **is [not making](https://www.wheresyoured.at/the-haters-gui/?ref=ed-zitrons-wheres-your-ed-at-newsletter) the companies providing the services (such as OpenAI and Anthropic) or the companies providing second-tier services (like Microsoft or Google's AI assistants) any profits** - so we should expect the cost thereof to skyrocket once companies like OpenAI inevitably come knocking for their profits.
+
+## Let's look at the potentially bigger picture - AI and innovation
+
+Let's focus on the bigger picture. Futurists and tech oligarchs are promising great things from AI, and investing even greater amounts. How big is the mismatch between the present and the investments into these promises? 
+
+Ok, maybe not math this time - I'm just going to hit you with some numbers, of which [Ed Zitron](https://www.wheresyoured.at/the-haters-gui/?ref=ed-zitrons-wheres-your-ed-at-newsletter) has done a much more in-depth investigation. If these numbers interest you, please give his article a read and subscribe.
+
+- Roughly 35% of the US stock market is held up by five companies (Microsoft, Amazon, META, Alphabet, Tesla) buying GPUs from NVIDIA. 
+- Is "held up" too strong a term? Nope. Meta spends 25% — and Microsoft an alarming 47% — of its capital expenditures on NVIDIA chips. This is why the [arrival of the very training-efficient Deepseek](https://www.intuition.com/deepseeks-market-shock-what-you-need-to-know/) instantly wiped out more than a trillion dollars from the stock market - because it showed us that NVIDIA might not sell as many GPUs as previously expected.
+- 42% of NVIDIA's revenue comes from Microsoft, Amazon, Meta, Alphabet and Tesla continuing to buy **more** GPUs. There is some good news for NVIDIA here: GPUs last 3-8 years before needing to be replaced
+- OpenAI is not making money. "OpenAI must convert to a for-profit by the end of 2025, or it loses $20 billion of the remaining $30 billion of funding. If it does not convert by October 2026, its current funding converts to debt." So where's the path to profitability? It will either have to stop training new models, engineer something massively fresh, or start charging a lot more for using its service. ChatGPT has 15.5 million subscribers and 1.5 million enterprise customers. That makes it a B2B business, which is going to transfer the costs to other businesses, and them to you.
+- One has to acknowledge that R&D can take years and years, but currently generative AI is not
+- making any big companies integrating it into their products any money. Meta alone is projected to lose ~$69 billion in 2025 on AI. Overall, "if they keep their promises, by the end of 2025, Meta, Amazon, Microsoft, Google and Tesla will have spent over $560 billion in capital expenditures on AI in the last two years, all to make around $35 billion." 
+
+I'd like to let that last point simmer for a bit - **$560 billion was spent this year implementing a next-letter-guessing algorithm in different ways into mostly existing tech products.** How are they going to get this $560+ back from us, the consumers?
+
+![bubbles](https://ryanandersonds.com/images/bubbles.jpg "bubbles")
+
+Whether we look at the innovation from AI, or the productivity gains it currently offers employees, it looks bubbly.
+
+A bubble doesn't have to be based on absolutely useless technology, just a situation where the price of something in the market has exceeded its fundamental value, driven by speculation and investor psychology rather than underlying economic factors.
+
+Even common sense should lead down the same thought path
+- If we magically removed AI from existence tomorrow, how much would your daily life change? Probably not much at all. 
+- Yet what are the promises that deeply vested people are making? To alter our lives. To solve climate change - yet somehow AI is currently worsening the climate through massive power usage. To transform coding - yet currently AI needs to be babysat as it hallucinates too much to be useful building anything beyond a skeleton app.
+- We saw one big leap in text generation that seemed very smart (since it's smarter than computers previously were) and decided (thanks to much positivity from loud techno-oligarchs) that we are close to AGI! Since then, there has been no obvious progress in that direction. But no worries - we are close, they assure you. 
+- And to be clear, the gap between the current models and AGI require unknown scientific breakthroughs - we either need to discover how to provide machines with consciousness, we need to find a path to AGI through LLMs by harvesting more data than currently exists, or another path nobody can currently think of. 
+
+This has all the makings of a hype train. I wanted to illustrate this with one strawman use case - Strava's Athlete "Intelligence," which is needlessly calling LLMs several times per activity to add no value whatsoever to the information perfectly well presented in great visualisations and stats all around it.
+
+![stravaintelligence](https://ryanandersonds.com/images/stravaintelligence.png "strava intelligence")
+
+This generates several LLM responses for every run I record. It tells me my run was "solid" - what does that even mean? It quotes a faster pace than my 30-day average (that doesn't matter - my runs vary in pace depending on the terrain and purpose of the run). It says I had a "consistent effort across different heart rate zones" which is physically impossible. I was running intervals. An inconsistent effort. This feature is an example of the "let's slap some AI on that bad boy" mentality of companies trying to find ways to innovate without asking what the user needs. And we're paying for it.
+
+In cases like Strava's, it's just a case of very poor execution. They have a great product, albeit few new successful features, and are flailing around for ideas to capture new users and growth. Enter new technology, the CTO gets excited, and every one of their underlings is obviously incentivised to make the CTO happy with a new feature. They just forgot to ask their users what they want.
+
+## Vibe coding and other advanced knowledge worker applications in the long term
+
+A [study](https://www.theregister.com/2025/07/11/ai_code_tools_slow_down/?ref=wheresyoured.at) showed that AI tools make software development slower. "The developers predicted a 24 percent speedup, but even _after_ the study concluded, they believed AI had helped them complete tasks 20 percent faster when it had actually delayed their work by about that percentage."
+
+That said, I'm not going to go against the grain - if every dev is using it then it's probably useful and the above study is probably an outlier. Software developers are incentivised to get things done quickly and neatly, and they're not going to use something that does the opposite.
+
+The downside of course is when massive pieces of work are produced by LLMs, fault-finding is *hard*, actually requiring more work than if fault finding your own code.
+
+It's the same in another major application of LLMs - in Law. LLMs are ideal for sifting through large databases of legal documents and summarising outputs or producing legal documents of their own. Law is a *lot* of grunt work. However, if mistakes are made, big trouble. And finding mistakes is very hard in a smart sounding legal paper.
+
+The problem lies in the unavoidable design flaw of LLMs - that they cannot detect their own errors. They can, to simplify it a bit, return a percentage certainty they are of each token and therefore each answer, but that doesn't solve the issue - merely helps you flag if things may be wrong. They can also be checked with other LLMs - a common practice. But nothing can get around this hallucination problem.
+
+What we should therefore be wary of is the obvious long term impacts of having a tool that automates grunt work and seems very good at what it does, until it isn't. 
+- **Long term skills:** If none of us learn how to code from first principles, none of us can effectively understand why code built by AI is broken. All entry level engineers are now using (or being replaced by) AI - but will they ever become high level engineers if they cannot actually code the things they are automating the coding of? Or are we going to see two tiers of workers - those who just use AI, and those who go through the effort to fix the output thereof?
+- **Technical debt:** LLMs are next-token guessers and can't think abstractly about  architecture, code readability and technical debt. They can confidently make very hidden mistakes (Counter-argument: They can very quickly build up awesome suites of tests)
+- **Model collapse**: This is the process where models become useless in the long term as they are only trained on their own output. Since we have already trained the most widely used LLMs on as much publicly available writing and code as we could get our greedy capitalist paws on, we're soon going to be adding model-generated data into training data. This just worsens output in the long term - the same way that an echo chamber of political discussion becomes more extreme over time.
+
+Right now, LLMs still face the same limitations they always have - limitations humans don’t face nearly as much: limited context, hallucinations, online learning and cost of that learning.
+
+We'll no doubt find ways around these problems to some extent - but the point to illustrate here is that the current gleeful vibe-coding trajectory is unsustainable. 
+
+## Segue: AGI 
+
+Some of the current bubble is based on the promises that society is close to Artificial General Intelligence, or AGI - an intelligence that would match humans across most tasks. Invest more, and we promise you AGI in the next twenty years. No, ten! No, two!
+
+The only trouble is that it's unknown how we get there. Via consciousness or other paths of intelligence? And if via LLM-type intelligence (a theory exists with enough training we can produce AGI LLMs), how much data and training do we need? What other breakthroughs do we need? 
+
+Nobody knows. And while it's a good thing to have policies and systems in place to protect humanity from any negative effects thereof, it's ridiculous to promise that your funding will produce AGI soon. There's just no evidence of that. It could be another nuclear fusion - technology which has been promised since the 1950s. 
+
+## Another segue: Let's not forget the environment
+
+I can't skip the frankly most important bit: The biggest challenge the human race is going to face over the next few hundred years is *not* slightly slower corporate growth (the problem AI is currently solving). The biggest challenge is obviously climate change - a problem AI is currently making worse.
+
+We are being wasteful. Multiple companies training virtually the same LLMs on virtually the same data to compete with each other in the hope of their competitors running out of funding first. 
+
+A query to ChatGPT costs roughly the same as a lightbulb for a few minutes (estimates vary), which is not bad. Training one model (and there are many, many competing models) costs roughly what it costs to power a neighbourhood for several months.
+
+The biggest problem, though, is not this cost, so much as the ridiculous amount of investment going into the technology versus fighting climate change. As a comparison, $10-20 billion (estimates vary quite wildly) has been funded towards carbon removal, one of the most important technologies in the fight against climate change. Compare that to the $560 billion on AI *just this year*. That sends a message that our priority is very much short term profits over the climate crisis.
+
+## How will it the bubble pop / fizzle out?
+
+A fizzle seems more likely than a pop, unless there's a black swan event. We're going to see a gradual decay of faith in AI and investment therein.
+
+The AI world is a petri dish of chaos right now. There are too many competitors, with an unprecedented amount of funding, all vying to build slightly better AI. Then there are millions of companies still figuring out how useful AI is for their employees' day to day tasks. Universities and schools are even more lost.
+
+Models won't get much better - Almost all of these LLMs run on huge human-created datasets, with massive crossover between datasets. We don't have much more training data. At some point, investments will stop flowing in to these foundational models as we see they aren't making profits. Maybe some competitors will make profits (none currently do) - but through tightening up and charging their downstream users more. 
+
+As things get more expensive for us, and companies start knocking on the door to ask us for the money they used to invest in these products we didn't ask for, we'll use said products less. For instance, you can already save money by disabling AI in Microsoft 365. 
+
+Less investment will flow in. A few dominant players will survive, and soon we'll be talking about AI like we talk about spreadsheets. A necessary part of life that fulfils a specific purpose.
+
+LLMs will be increasingly trained on other LLMs - causing model collapse. The players that emerge victorious will be those that can harvest the freshest, most relevant datasets of pure human input.
+
+We'll become both smarter and dumber - smarter because we have access to our own personal assistants, but dumber because we won't be able to think as well for ourselves. 
+
+Eventually, some of these factors will start poking at the bubble. But for now, we're seeing most of the (currently scientifically possible) benefits of AI without any of the downsides. But that won't last.
+
+## Could I be wrong?
+
+Yes - and I'd love to be. AI excites me. It's the biggest tech breakthrough since the internet.
+
+I'm not saying that you definitely should take your money out of the stock market. John Maynard Keynes famously said that markets can remain irrational longer than you can remain solvent. 
+
+And maybe we do achieve the breakthroughs necessary for AGI or massive improvements in model problems like hallucination or training data. There are virtual *armies* of much smarter people than me working on these problems - and fully aware that AI has not reached its full potential yet. There are known and unknown unknowns, scientific breakthroughs, that would make AI much more efficacious.
+
+## Phew! Let's revisit that all, in point form
+
+- AI is the first big technology jump in a while. The tech industry has pounced on the opportunity.
+- Whilst AI is obviously very useful, the hype is far bigger than the technology. We've made a satisficing next-letter guesser that has made menial office tasks a bit more efficient, raising typical company revenue by less than a percent 
+- The long term effects are still unclear - but things will probably fizzle out as AI becomes everyone's assistant, making them slightly more efficient. But they'll remain just that - your assistant - useful in some tasks, not in others. In the long term they'll make everyone stupider and we'll rely on them
+- Has this added value to the world? Yes! We can get more stuff done with fewer people. Does that mean more *useful* stuff will actually get done - positive growth for humanity? Who knows
+- Right now, despite being useful, it does appear overvalued in the stock market - whether as a productivity tool or as a source of innovation
+- That can change, though, should we make major scientific breakthroughs in how these models work, or we make strides towards AGI
+- I don't think the bubble will pop - but rather just  think it will just fizzle out as AI companies continue to not report profits over the next few years, or AI tools become more expensive as AI companies try make profits.
+
+Be cautious of promises that sound too good. Ask what real, measurable value AI brings - today, not in theory.
