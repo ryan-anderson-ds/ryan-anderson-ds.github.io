@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Brief thoughts: What will the AI bubble burst mean for the rank-and-file tech employees?
+title: Brief thoughts - What will the AI bubble burst mean for the rank-and-file tech employees?
 type: insights
 ---
 
