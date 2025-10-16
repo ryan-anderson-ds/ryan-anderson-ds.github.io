@@ -6,7 +6,11 @@ type: insights
 
 At this point most of us believe the AI bubble is going to burst. There are more than enough articles on it ([my favourite](https://www.wheresyoured.at/the-case-against-generative-ai/)).
 
-So rather than “will it burst," or “when will it burst,” let’s think about “so what will that mean for us in practice?”  As a Data Scientist heavily using AI, and also an ex-virtually-everything-else-in-the-tech-world (CTO, product manager, software engineer, electrical engineer), I have a few thoughts.   Obviously, generative AI is here to stay. But here are some shifts we could expect. Some due to the burst, some just with time as the landscape shifts:
+So rather than “will it burst," or “when will it burst,” let’s think about “so what will that mean for us in practice?”
+
+As a Data Scientist heavily using AI, and also an ex-virtually-everything-else-in-the-tech-world (engineering manager, product manager, software engineer, electrical engineer), I have a few thoughts. 
+
+Obviously, generative AI is here to stay. But here are some shifts we could expect. Some due to the burst, some just with time as the landscape shifts:
 
 - Firms that have been investing hundreds of billions in AI will come knocking on our doors for their money. We’ll feel the strain. Not only for increased cost of any platform that has seen AI investment, but…
 - The cost of state-of-the-art foundation models will rise exponentially, and companies like OpenAI and Anthropic will brag (and deceive) about why you should be using their models. Meanwhile, out of date, slower or slightly less accurate models will be available at a fraction of the cost (as is already the case - but even more so). The choice of which model to use will be up to you.
