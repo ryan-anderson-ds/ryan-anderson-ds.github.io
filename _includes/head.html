@@ -1,5 +1,5 @@
 <head>
-	<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }} {{ site.subtitle }}</title>
+	<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<!--[if lte IE 8]><script src="{{ "assets/js/ie/html5shiv.js" | relative_url }}"></script><![endif]-->
@@ -9,6 +9,7 @@
 	<link rel="icon" type="image/x-icon" href="{{ "favicon.ico" | relative_url }}" />
 	<link rel="icon" type="image/png" sizes="32x32" href="{{ "assets/images/favicon-32x32.png" | relative_url }}" />
 	<link rel="apple-touch-icon" sizes="180x180" href="{{ "assets/images/apple-touch-icon.png" | relative_url }}" />
+	{% seo %}
 	<!-- Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-7ZEW0YEHF5"></script>
 	<script>
