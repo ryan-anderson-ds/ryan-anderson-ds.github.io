@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ryan-anderson-ds.github.io/sitemap.xml
+Sitemap: https://vancouverdatascience.ca/sitemap.xml
