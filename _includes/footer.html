@@ -6,7 +6,7 @@
 			<h2>Contact Us / Book a free hour-long initial session</h2>
 		</header>
 		<p>A good consulting relationship is a two-way thing. We offer a free one hour session to discuss your business' needs, with zero obligations.</p>
-		<form action="https://formspree.io/{{ site.email }}" method="POST">
+		<form id="contact-form" action="https://formspree.io/f/xreoknzp" method="POST">
 			<div class="field half first">
 				<label for="name">Name</label>
 				<input type="text" name="name" id="name" />
@@ -23,7 +23,42 @@
 				<li><input type="submit" value="Send Message" class="special" /></li>
 				<li><input type="reset" value="Clear" /></li>
 			</ul>
+			<p id="contact-status" style="display:none; margin-top:1em; font-weight:bold;"></p>
 		</form>
+		<script>
+		document.getElementById('contact-form').addEventListener('submit', function(e) {
+			e.preventDefault();
+			var form = this;
+			var status = document.getElementById('contact-status');
+			var submitBtn = form.querySelector('input[type="submit"]');
+			submitBtn.disabled = true;
+			submitBtn.value = 'Sending...';
+			fetch(form.action, {
+				method: 'POST',
+				body: new FormData(form),
+				headers: { 'Accept': 'application/json' }
+			}).then(function(response) {
+				if (response.ok) {
+					status.style.display = 'block';
+					status.style.color = '#8cc9f0';
+					status.textContent = 'Your request has been sent, thanks!';
+					form.reset();
+				} else {
+					status.style.display = 'block';
+					status.style.color = '#ff6666';
+					status.textContent = 'Something went wrong. Please try again.';
+				}
+				submitBtn.disabled = false;
+				submitBtn.value = 'Send Message';
+			}).catch(function() {
+				status.style.display = 'block';
+				status.style.color = '#ff6666';
+				status.textContent = 'Something went wrong. Please try again.';
+				submitBtn.disabled = false;
+				submitBtn.value = 'Send Message';
+			});
+		});
+		</script>
 	</div>
 </section>
 {% endunless %}
